@@ -35,7 +35,7 @@
       >
         <div class="container">
           <div class="row justify-content-center">
-            <div class="col-sm-10 col-lg-8">
+            <div class="intro-content col-sm-10 col-lg-8">
               <h5 class="text-primary text-uppercase mb-3 animated slideInDown">
                 Experience the Best Online Learning
               </h5>
@@ -72,7 +72,7 @@
       >
         <div class="container">
           <div class="row justify-content-center">
-            <div class="col-sm-10 col-lg-8">
+            <div class="intro-content col-sm-10 col-lg-8">
               <h5 class="text-primary text-uppercase mb-3 animated slideInDown">
                 Embrace the Best of Blended Education
               </h5>
@@ -145,8 +145,23 @@
 
   @media (max-width: 1000px) {
     .intro-item img {
-      max-height: 1300px;
-      height: 800px;
+      max-height: 600px;
+      height: 500px;
+    }
+  }
+
+  @media (max-width: 700px) {
+    .intro-content {
+      padding: 3rem;
+    }
+    .intro-content h1 {
+      font-size: x-large;
+    }
+  }
+
+  @media (max-width: 450px) {
+    .intro-content p {
+      font-size: medium !important;
     }
   }
 </style>
