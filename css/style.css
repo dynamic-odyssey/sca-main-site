@@ -284,6 +284,11 @@
     transform: scale(1.1);
 }
 
+.price-item img {
+    width: 225px !important;
+    height: 200px !important;
+    margin-top: 2rem;
+}
 
 /*** Team ***/
 .team-item img {
