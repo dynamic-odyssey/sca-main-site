@@ -10,10 +10,12 @@ RUN apt-get update && apt-get install -y \
     curl \
     && apt-get clean
 
-RUN mkdir /pocketbase /pb-dev
+COPY ./pb /pb-dev
+
+RUN cd /pb-dev && bash ./scripts/build.sh
 
 # Set working directory
-WORKDIR /pb-dev
+WORKDIR /pocketbase
 
 # cmd to keep container running
-CMD tail -f /dev/null
+CMD ["/pocketbase/pocketbase", "serve", "--http=0.0.0.0:8090"]

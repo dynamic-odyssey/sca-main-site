@@ -20,7 +20,7 @@ services:
     ports:
       - "8091:8090"
     volumes:
-      - ./pb:/pb-dev
+      # - ./pb:/pb-dev
       - ./pb_migrations:/pocketbase/pb_migrations
       - ./pb_public:/pocketbase/pb_public
       - sca_main_pb_data:/pocketbase/pb_data
