@@ -256,6 +256,7 @@
 .service-item {
     background: var(--light);
     transition: .5s;
+    height: 400px !important;
 }
 
 .service-item:hover {
