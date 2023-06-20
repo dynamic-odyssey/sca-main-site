@@ -14,7 +14,7 @@ import (
 	"github.com/pocketbase/pocketbase/plugins/jsvm"
 	"github.com/pocketbase/pocketbase/plugins/migratecmd"
 
-	"dynamic-pb/mail_handling"
+	"sca-pb/mail_handling"
 )
 
 func main() {

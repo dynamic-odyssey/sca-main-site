@@ -19,8 +19,6 @@ const (
 
 func GetEmailTemplatePath(template EMAIL_TEMPLATE) string {
 	switch template {
-	case QUOTE_REQUEST:
-		return "email-templates/quoteRequest.html"
 	case CONTACT_REQUEST:
 		return "email-templates/contactRequest.html"
 	case THANKS_FOR_CONTACTING:
@@ -51,13 +49,6 @@ func ReplacePlaceholders(template string, placeholders map[string]string) string
 
 func GetReplacementValues(templateType EMAIL_TEMPLATE, e *core.RecordCreateEvent) (map[string]string, error) {
 	switch templateType {
-	case QUOTE_REQUEST:
-		return map[string]string{
-			"{name}":    e.Record.GetString("name"),
-			"{email}":   e.Record.GetString("email"),
-			"{service}": e.Record.GetString("service"),
-			"{message}": e.Record.GetString("message"),
-		}, nil
 	case CONTACT_REQUEST:
 		return map[string]string{
 			"{name}":    e.Record.GetString("name"),
@@ -70,6 +61,6 @@ func GetReplacementValues(templateType EMAIL_TEMPLATE, e *core.RecordCreateEvent
 			"{name}": e.Record.GetString("name"),
 		}, nil
 	default:
-		return nil, errors.New("Invalid template type")
+		return nil, errors.New("invalid template type")
 	}
 }

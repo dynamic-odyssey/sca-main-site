@@ -1,4 +1,4 @@
-module dynamic-pb
+module sca-pb
 
 go 1.20
 

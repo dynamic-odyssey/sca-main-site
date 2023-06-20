@@ -45,14 +45,11 @@ func OnMessageFromClientReceived(app *pocketbase.PocketBase, e *core.RecordCreat
 	case "contact_us_messages":
 		messageType = CONTACT_REQUEST
 		subject = "Contact Request"
-	case "quote_requests":
-		messageType = QUOTE_REQUEST
-		subject = "Quote Request"
 	default:
 		return nil
 	}
 
-	err := sendMail(app, e, messageType, app.Settings().Meta.SenderAddress, subject)
+	err := sendMail(app, e, messageType, "school.office@swakopca.com", subject)
 	if err != nil {
 		fmt.Print(err.Error())
 		return err
