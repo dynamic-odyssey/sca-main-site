@@ -180,7 +180,13 @@
             </div>
             <div class="col-12">
               <button class="btn btn-primary w-100 py-3" type="submit"
-                >Send Message</button
+                >{#if loading}
+                  <div class="spinner-border text-light" role="status">
+                    <span class="visually-hidden" />
+                  </div>
+                {:else}
+                  Send Message
+                {/if}</button
               >
             </div>
           </div>
