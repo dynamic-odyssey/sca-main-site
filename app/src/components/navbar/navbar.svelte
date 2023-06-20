@@ -14,9 +14,10 @@
       <img
         src="img/SCALogo.jpg"
         alt="Swakopmund Christian Academy"
-        class="me-3"
+        class="me-3 nav-brand-image"
       />
-      Swakopmund Christian Academy
+      <span class="nav-title-full">Swakopmund Christian Academy</span>
+      <span class="nav-title-short">Swakop CA</span>
     </h2>
   </a>
   <button
@@ -47,4 +48,21 @@
 </nav>
 
 <style>
+  .nav-title-short {
+    display: none;
+  }
+
+  @media (max-width: 1300px) {
+    .nav-brand-image {
+      display: none;
+    }
+  }
+  @media (max-width: 1200px) {
+    .nav-title-full {
+      display: none;
+    }
+    .nav-title-short {
+      display: inline;
+    }
+  }
 </style>

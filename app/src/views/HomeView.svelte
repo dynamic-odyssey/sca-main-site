@@ -142,4 +142,11 @@
     width: 100vw !important;
     max-height: 700px;
   }
+
+  @media (max-width: 1000px) {
+    .intro-item img {
+      max-height: 1300px;
+      height: 800px;
+    }
+  }
 </style>
