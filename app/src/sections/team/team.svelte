@@ -1,305 +1,84 @@
 <script lang="ts">
-  export let showAllTeamMembers: boolean = false;
+  export let showAll: boolean = false;
 </script>
 
 <div class="container-xxl py-5">
   <div class="container">
     <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
       <h6 class="section-title bg-white text-center text-primary px-3">
-        Staff
+        Our School
       </h6>
-      <h1 class="mb-5">Expert Teachers</h1>
+      <h1 class="mb-5">Gallery</h1>
     </div>
-    <div class="row g-4">
-      <div
-        class="col-lg-3 col-md-6 wow fadeInUp flex-grow-1"
-        data-wow-delay="0.1s"
-      >
-        <div class="team-item bg-light">
-          <div class="overflow-hidden">
-            <img class="img-fluid" src="img/teachers/Mr_P_W_Links.jpg" alt="" />
-          </div>
-          <div
-            class="position-relative d-flex justify-content-center"
-            style="margin-top: -23px;"
-          >
-            <div class="bg-light d-flex justify-content-center pt-2 px-1">
-              <a class="btn btn-sm-square btn-primary mx-1" href=""
-                ><i class="fab fa-facebook-f" /></a
-              >
-              <a class="btn btn-sm-square btn-primary mx-1" href=""
-                ><i class="fab fa-twitter" /></a
-              >
-              <a class="btn btn-sm-square btn-primary mx-1" href=""
-                ><i class="fab fa-instagram" /></a
-              >
-            </div>
-          </div>
-          <div class="text-center p-4">
-            <h5 class="mb-0">Mr Links</h5>
-            <small>Principal</small>
-          </div>
-        </div>
+    <div class="row wow fadeInUp">
+      <div class="column wow fadeInUp" data-wow-delay="0.9s">
+        <img src="img/school-env/pic1.webp" style="width:100%" />
+        {#if showAll}
+          <img src="img/school-env/pic2.webp" style="width:100%" />
+          <img src="img/school-env/pic3.webp" style="width:100%" />
+        {/if}
       </div>
-      <div
-        class="col-lg-3 col-md-6 wow fadeInUp flex-grow-1"
-        data-wow-delay="0.3s"
-      >
-        <div class="team-item bg-light">
-          <div class="overflow-hidden">
-            <img class="img-fluid" src="img/teachers/Ms_D_Links.jpg" alt="" />
-          </div>
-          <div
-            class="position-relative d-flex justify-content-center"
-            style="margin-top: -23px;"
-          >
-            <div class="bg-light d-flex justify-content-center pt-2 px-1">
-              <a class="btn btn-sm-square btn-primary mx-1" href=""
-                ><i class="fab fa-facebook-f" /></a
-              >
-              <a class="btn btn-sm-square btn-primary mx-1" href=""
-                ><i class="fab fa-twitter" /></a
-              >
-              <a class="btn btn-sm-square btn-primary mx-1" href=""
-                ><i class="fab fa-instagram" /></a
-              >
-            </div>
-          </div>
-          <div class="text-center p-4">
-            <h5 class="mb-0">Ms Links</h5>
-            <small>Primary School Teacher</small>
-          </div>
-        </div>
+      <div class="column wow fadeInUp" data-wow-delay="0.5s">
+        <img src="img/school-env/pic4.webp" style="width:100%" />
+        {#if showAll}
+          <img src="img/school-env/pic5.webp" style="width:100%" />
+          <img src="img/school-env/pic13.webp" style="width:100%" />
+        {/if}
       </div>
-      <div
-        class="col-lg-3 col-md-6 wow fadeInUp flex-grow-1"
-        data-wow-delay="0.5s"
-      >
-        <div class="team-item bg-light">
-          <div class="overflow-hidden">
-            <img class="img-fluid" src="img/teachers/Mrs_Basson.jpg" alt="" />
-          </div>
-          <div
-            class="position-relative d-flex justify-content-center"
-            style="margin-top: -23px;"
-          >
-            <div class="bg-light d-flex justify-content-center pt-2 px-1">
-              <a class="btn btn-sm-square btn-primary mx-1" href=""
-                ><i class="fab fa-facebook-f" /></a
-              >
-              <a class="btn btn-sm-square btn-primary mx-1" href=""
-                ><i class="fab fa-twitter" /></a
-              >
-              <a class="btn btn-sm-square btn-primary mx-1" href=""
-                ><i class="fab fa-instagram" /></a
-              >
-            </div>
-          </div>
-          <div class="text-center p-4">
-            <h5 class="mb-0">Mrs Basson</h5>
-            <small>Primary School Teacher</small>
-          </div>
-        </div>
+      <div class="column wow fadeInUp" data-wow-delay="1.3s">
+        {#if showAll}
+          <img src="img/school-env/pic6.webp" style="width:100%" />
+        {/if}
+        <img src="img/school-env/pic7.webp" style="width:100%" />
+        {#if showAll}
+          <img src="img/school-env/pic8.webp" style="width:100%" />
+          <img src="img/school-env/pic12.webp" style="width:100%" />
+        {/if}
       </div>
-      <div
-        class="col-lg-3 col-md-6 wow fadeInUp flex-grow-1"
-        data-wow-delay="0.7s"
-      >
-        <div class="team-item bg-light">
-          <div class="overflow-hidden">
-            <img class="img-fluid" src="img/teachers/Ms_Poulton.jpg" alt="" />
-          </div>
-          <div
-            class="position-relative d-flex justify-content-center"
-            style="margin-top: -23px;"
-          >
-            <div class="bg-light d-flex justify-content-center pt-2 px-1">
-              <a class="btn btn-sm-square btn-primary mx-1" href=""
-                ><i class="fab fa-facebook-f" /></a
-              >
-              <a class="btn btn-sm-square btn-primary mx-1" href=""
-                ><i class="fab fa-twitter" /></a
-              >
-              <a class="btn btn-sm-square btn-primary mx-1" href=""
-                ><i class="fab fa-instagram" /></a
-              >
-            </div>
-          </div>
-          <div class="text-center p-4">
-            <h5 class="mb-0">Ms Poulton</h5>
-            <small>High School Teacher</small>
-          </div>
-        </div>
+      <div class="column wow fadeInUp" data-wow-delay="1.8s">
+        <img src="img/school-env/pic9.webp" style="width:100%" />
+        {#if showAll}
+          <img src="img/school-env/pic10.webp" style="width:100%" />
+          <img src="img/school-env/pic11.webp" style="width:100%" />
+        {/if}
       </div>
     </div>
-    {#if showAllTeamMembers}
-      <div class="row g-4">
-        <div
-          class="col-lg-3 col-md-6 wow fadeInUp flex-grow-1"
-          data-wow-delay="0.1s"
-        >
-          <div class="team-item bg-light">
-            <div class="overflow-hidden">
-              <img class="img-fluid" src="img/teachers/Mrs_Bussel.jpg" alt="" />
-            </div>
-            <div
-              class="position-relative d-flex justify-content-center"
-              style="margin-top: -23px;"
-            >
-              <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                <a class="btn btn-sm-square btn-primary mx-1" href=""
-                  ><i class="fab fa-facebook-f" /></a
-                >
-                <a class="btn btn-sm-square btn-primary mx-1" href=""
-                  ><i class="fab fa-twitter" /></a
-                >
-                <a class="btn btn-sm-square btn-primary mx-1" href=""
-                  ><i class="fab fa-instagram" /></a
-                >
-              </div>
-            </div>
-            <div class="text-center p-4">
-              <h5 class="mb-0">Mrs Bussel</h5>
-              <small>High School Teacher</small>
-            </div>
-          </div>
-        </div>
-        <div
-          class="col-lg-3 col-md-6 wow fadeInUp flex-grow-1"
-          data-wow-delay="0.3s"
-        >
-          <div class="team-item bg-light">
-            <div class="overflow-hidden">
-              <img
-                class="img-fluid"
-                src="img/teachers/Mrs_L_Abrahams.jpg"
-                alt=""
-              />
-            </div>
-            <div
-              class="position-relative d-flex justify-content-center"
-              style="margin-top: -23px;"
-            >
-              <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                <a class="btn btn-sm-square btn-primary mx-1" href=""
-                  ><i class="fab fa-facebook-f" /></a
-                >
-                <a class="btn btn-sm-square btn-primary mx-1" href=""
-                  ><i class="fab fa-twitter" /></a
-                >
-                <a class="btn btn-sm-square btn-primary mx-1" href=""
-                  ><i class="fab fa-instagram" /></a
-                >
-              </div>
-            </div>
-            <div class="text-center p-4">
-              <h5 class="mb-0">Mrs Abrahams</h5>
-              <small>Primary School Teacher</small>
-            </div>
-          </div>
-        </div>
-        <div
-          class="col-lg-3 col-md-6 wow fadeInUp flex-grow-1"
-          data-wow-delay="0.5s"
-        >
-          <div class="team-item bg-light">
-            <div class="overflow-hidden">
-              <img
-                class="img-fluid"
-                src="img/teachers/Mrs_R_Plaatjie.jpg"
-                alt=""
-              />
-            </div>
-            <div
-              class="position-relative d-flex justify-content-center"
-              style="margin-top: -23px;"
-            >
-              <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                <a class="btn btn-sm-square btn-primary mx-1" href=""
-                  ><i class="fab fa-facebook-f" /></a
-                >
-                <a class="btn btn-sm-square btn-primary mx-1" href=""
-                  ><i class="fab fa-twitter" /></a
-                >
-                <a class="btn btn-sm-square btn-primary mx-1" href=""
-                  ><i class="fab fa-instagram" /></a
-                >
-              </div>
-            </div>
-            <div class="text-center p-4">
-              <h5 class="mb-0">Mrs Plaatjie</h5>
-              <small>Pre-Primary School Teacher</small>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-          <div class="team-item bg-light">
-            <div class="overflow-hidden">
-              <img
-                class="img-fluid"
-                src="img/teachers/Ms_N_Plaatjie.jpg"
-                alt=""
-              />
-            </div>
-            <div
-              class="position-relative d-flex justify-content-center"
-              style="margin-top: -23px;"
-            >
-              <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                <a class="btn btn-sm-square btn-primary mx-1" href=""
-                  ><i class="fab fa-facebook-f" /></a
-                >
-                <a class="btn btn-sm-square btn-primary mx-1" href=""
-                  ><i class="fab fa-twitter" /></a
-                >
-                <a class="btn btn-sm-square btn-primary mx-1" href=""
-                  ><i class="fab fa-instagram" /></a
-                >
-              </div>
-            </div>
-            <div class="text-center p-4">
-              <h5 class="mb-0">Ms Plaatjie</h5>
-              <small>Primary School Teacher</small>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row g-4">
-        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-          <div class="team-item bg-light">
-            <div class="overflow-hidden">
-              <img
-                class="img-fluid"
-                src="img/teachers/Ms_Merceline_Hummel.jpg"
-                alt=""
-              />
-            </div>
-            <div
-              class="position-relative d-flex justify-content-center"
-              style="margin-top: -23px;"
-            >
-              <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                <a class="btn btn-sm-square btn-primary mx-1" href=""
-                  ><i class="fab fa-facebook-f" /></a
-                >
-                <a class="btn btn-sm-square btn-primary mx-1" href=""
-                  ><i class="fab fa-twitter" /></a
-                >
-                <a class="btn btn-sm-square btn-primary mx-1" href=""
-                  ><i class="fab fa-instagram" /></a
-                >
-              </div>
-            </div>
-            <div class="text-center p-4">
-              <h5 class="mb-0">Ms Hummel</h5>
-              <small>Primary School Teacher</small>
-            </div>
-          </div>
-        </div>
-      </div>
-    {/if}
   </div>
 </div>
 
 <style>
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
 </style>

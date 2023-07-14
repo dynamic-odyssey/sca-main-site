@@ -134,7 +134,7 @@
 <Categories />
 <Courses />
 <Pricing />
-<Team showAllTeamMembers={false} />
+<Team showAll={false} />
 
 <style>
   .intro-item,
