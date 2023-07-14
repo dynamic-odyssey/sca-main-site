@@ -27,7 +27,7 @@
 
 <Services vmf={true} />
 <WhyUs />
-<Team showAllTeamMembers={true} />
+<Team showAll={true} />
 
 <style>
 </style>
