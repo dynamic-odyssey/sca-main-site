@@ -10,9 +10,10 @@ RUN apt-get update && apt-get install -y \
     curl \
     && apt-get clean
 
-COPY ./pb /pb-dev
+COPY ./pb /pocketbase
 
-RUN cd /pb-dev && bash ./scripts/build.sh
+# make pocketbase executable
+RUN chmod +x /pocketbase/pocketbase
 
 # Set working directory
 WORKDIR /pocketbase

@@ -1,0 +1,99 @@
+name: dynamic-odyssey
+
+on:
+  push:
+    branches: ["production"]
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: ^1.20
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - name: Restore pb dependencies
+        run: |
+          cd ./pb
+          go mod tidy
+
+      - name: Restore App dependencies
+        run: |
+          cd ./app
+          npm install
+
+      - name: Build App
+        run: |
+          cd ./app
+          npm run build
+        env:
+          CI: false
+
+      - name: Build pb
+        run: |
+          cd ./pb
+          go build -o ./dist/pocketbase
+          cp -r ./email-templates ./dist/
+
+      - name: Construct production dir
+        run: |
+          mkdir production
+          cp -r ./app/dist ./production/app
+          cp -r ./pb/dist ./production/pb
+          cp -r ./pb_migrations ./production/pb_migrations
+          cp ./pb.Dockerfile ./production/pb.Dockerfile
+          cp ./docker-compose.yaml ./production/docker-compose.yaml
+
+      - name: Archive production dir
+        uses: actions/upload-artifact@v3
+        with:
+          name: Production
+          path: ./production
+          retention-days: 1
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-20.04
+
+    steps:
+      - name: Download production artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: Production
+          path: production
+
+      - name: Copy production folder to server
+        uses: appleboy/scp-action@master
+        with:
+          host: ${{ secrets.CD_HOST }}
+          username: ${{ secrets.CD_USER }}
+          port: 22
+          key: ${{ secrets.SSH_DEPLOY_KEY }}
+          rm: true
+          source: "/home/runner/work/sca-main-site/sca-main-site/production"
+          target: "/main-site-production"
+          strip_components: 3
+
+      - name: Start docker environment
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.CD_HOST }}
+          username: ${{ secrets.CD_USER }}
+          port: 22
+          key: ${{ secrets.SSH_DEPLOY_KEY }}
+          script: |
+
+            cd /main-site-production
+
+            docker-compose down
+            docker-compose build
+            docker-compose up -d
