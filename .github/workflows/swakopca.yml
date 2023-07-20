@@ -80,7 +80,7 @@ jobs:
           key: ${{ secrets.SSH_DEPLOY_KEY }}
           rm: true
           source: "/home/runner/work/sca-main-site/sca-main-site/production"
-          target: "/main-site-production"
+          target: "~/main-site-production"
           strip_components: 3
 
       - name: Start docker environment
@@ -92,7 +92,7 @@ jobs:
           key: ${{ secrets.SSH_DEPLOY_KEY }}
           script: |
 
-            cd /main-site-production
+            cd ~/main-site-production
 
             docker-compose down
             docker-compose build
