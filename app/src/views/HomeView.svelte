@@ -82,7 +82,7 @@
               <p class="fs-5 text-white mb-4 pb-2">
                 Whether you prefer the convenience of learning from home or the
                 benefits of face-to-face interaction, SCA offers a blended
-                education approach that combines the best of both worlds. Our
+                education approach that combines the best of both worlds suitable for any learning environment. Our
                 learning facilities provide a nurturing environment, while our
                 expert tutors deliver personalized guidance and instruction.
               </p>
