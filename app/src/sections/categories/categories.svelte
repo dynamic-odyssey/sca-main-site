@@ -24,7 +24,7 @@
                 style="margin: 1px;"
               >
                 <h5 class="m-0">Mathematics</h5>
-                <small class="text-primary">2 Courses</small>
+                <small class="text-primary">CCSS, USA</small>
               </div>
             </a>
           </div>
@@ -39,7 +39,7 @@
                 style="margin: 1px;"
               >
                 <h5 class="m-0">NGSS Science</h5>
-                <small class="text-primary">1 Course</small>
+                <small class="text-primary">NGSS, USA</small>
               </div>
             </a>
           </div>
@@ -54,7 +54,7 @@
                 style="margin: 1px;"
               >
                 <h5 class="m-0">Social Studies</h5>
-                <small class="text-primary">1 Course</small>
+                <small class="text-primary">NCSS, USA</small>
               </div>
             </a>
           </div>
@@ -80,7 +80,7 @@
             style="margin:  1px;"
           >
             <h5 class="m-0">English Language Arts</h5>
-            <small class="text-primary">1 Course</small>
+            <small class="text-primary">CCSS, USA</small>
           </div>
         </a>
       </div>
