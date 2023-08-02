@@ -18,11 +18,26 @@
     <div class="navbar-nav ms-auto p-4 p-lg-0">
       <a href="/" use:link use:active class="nav-item nav-link">Home</a>
       <a href="/about" use:link use:active class="nav-item nav-link">About</a>
+      <a href="/courses" use:link use:active class="nav-item nav-link"
+        >Courses</a
+      >
+      <a href="/courses" use:link use:active class="nav-item nav-link">Fees</a>
+      <a href="/courses" use:link use:active class="nav-item nav-link"
+        >Philosophy</a
+      >
+      <a href="/courses" use:link use:active class="nav-item nav-link"
+        >Governance</a
+      >
+      <a href="/contact" use:link use:active class="nav-item nav-link active"
+        >Contact</a
+      >
+=======
       <a href="/courses" use:link use:active class="nav-item nav-link">Courses</a>
       <a href="/events" use:link use:active class="nav-item nav-link">Governance</a>
       <a href="/fees-registration" use:link use:active class="nav-item nav-link">Fees</a>
       <a href="/parental-committee" use:link use:active class="nav-item nav-link">Philosophy</a>
       <a href="/contact" use:link use:active class="nav-item nav-link">Contact Us</a>
+
     </div>
   </div>
 </nav>
