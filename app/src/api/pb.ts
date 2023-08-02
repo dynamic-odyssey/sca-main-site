@@ -1,6 +1,6 @@
 
 import PocketBase from "pocketbase";
 
-const pocketbase = new PocketBase("http://localhost:8091");
+const pocketbase = new PocketBase("https://swakopca.com");
 
 export default pocketbase;
