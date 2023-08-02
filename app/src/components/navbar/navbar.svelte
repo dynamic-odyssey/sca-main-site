@@ -35,6 +35,13 @@
       <a href="/courses" use:link use:active class="nav-item nav-link"
         >Courses</a
       >
+      <a href="/courses" use:link use:active class="nav-item nav-link">Fees</a>
+      <a href="/courses" use:link use:active class="nav-item nav-link"
+        >Philosophy</a
+      >
+      <a href="/courses" use:link use:active class="nav-item nav-link"
+        >Governance</a
+      >
       <a href="/contact" use:link use:active class="nav-item nav-link active"
         >Contact</a
       >
