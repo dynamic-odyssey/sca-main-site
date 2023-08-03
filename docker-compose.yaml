@@ -1,15 +1,28 @@
 version: '3'
 
 services:
-  pb:
+  sca_app:
     build:
       context: .
-      dockerfile: pb.Dockerfile
+      dockerfile: app.Dockerfile
+    environment:
+      - HOST=0.0.0.0
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./app:/app
+      - ./pb_public:/app/dist
+
+  sca_pb-dev:
+    build:
+      context: .
+      dockerfile: pb-dev.Dockerfile
     ports:
       - "8091:8090"
     volumes:
+      - ./pb:/pb-dev
       - ./pb_migrations:/pocketbase/pb_migrations
-      - ./app:/pocketbase/pb_public
+      - ./pb_public:/pocketbase/pb_public
       - sca_main_pb_data:/pocketbase/pb_data
 
 volumes:

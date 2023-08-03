@@ -10,13 +10,10 @@ RUN apt-get update && apt-get install -y \
     curl \
     && apt-get clean
 
-COPY ./pb /pocketbase
-
-# make pocketbase executable
-RUN chmod +x /pocketbase/pocketbase
+RUN mkdir /pocketbase /pb-dev
 
 # Set working directory
-WORKDIR /pocketbase
+WORKDIR /pb-dev
 
 # cmd to keep container running
-CMD ["/pocketbase/pocketbase", "serve", "--http=0.0.0.0:8090"]
+CMD tail -f /dev/null
