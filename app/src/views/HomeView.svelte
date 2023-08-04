@@ -2,6 +2,7 @@
   import About from "../sections/about/about.svelte";
   import Categories from "../sections/categories/categories.svelte";
   import Courses from "../sections/courses/courses.svelte";
+  import Fees from "../sections/fees/fees.svelte";
   import Pricing from "../sections/pricing/pricing.svelte";
   import Services from "../sections/services/services.svelte";
   import Team from "../sections/team/team.svelte";
@@ -82,9 +83,10 @@
               <p class="fs-5 text-white mb-4 pb-2">
                 Whether you prefer the convenience of learning from home or the
                 benefits of face-to-face interaction, SCA offers a blended
-                education approach that combines the best of both worlds suitable for any learning environment. Our
-                learning facilities provide a nurturing environment, while our
-                expert tutors deliver personalized guidance and instruction.
+                education approach that combines the best of both worlds
+                suitable for any learning environment. Our learning facilities
+                provide a nurturing environment, while our expert tutors deliver
+                personalized guidance and instruction.
               </p>
               <a
                 href="https://online.elearning-swakopca.edu.na/"
@@ -133,7 +135,7 @@
 <About />
 <Categories />
 <Courses />
-<Pricing />
+<Fees />
 <Team showAll={false} />
 
 <style>

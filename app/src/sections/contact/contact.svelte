@@ -58,8 +58,8 @@
       <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
         <h5>Get In Touch</h5>
         <p class="mb-4">
-          Contact us via email, call us or simply drop by. We would
-          love to hear from you!
+          Contact us via email, call us or simply drop by. We would love to hear
+          from you!
         </p>
         <div class="d-flex align-items-center mb-3">
           <div

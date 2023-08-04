@@ -58,7 +58,9 @@
           </div>
           <div class="text-center p-4 pb-0">
             <h3 class="mb-0" />
-            <h5 class="mb-4">German Foreign Language (Writing and Speech training)</h5>
+            <h5 class="mb-4">
+              German Foreign Language (Writing and Speech training)
+            </h5>
           </div>
           <div class="d-flex border-top">
             <small class="flex-fill text-center border-end py-2"
