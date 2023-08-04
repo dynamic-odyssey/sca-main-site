@@ -2,6 +2,7 @@
   import About from "../sections/about/about.svelte";
   import Categories from "../sections/categories/categories.svelte";
   import Courses from "../sections/courses/courses.svelte";
+  import Fees from "../sections/fees/fees.svelte";
   import Pricing from "../sections/pricing/pricing.svelte";
   import Services from "../sections/services/services.svelte";
   import Team from "../sections/team/team.svelte";
@@ -133,7 +134,7 @@
 <About />
 <Categories />
 <Courses />
-<Pricing />
+<Fees />
 <Team showAll={false} />
 
 <style>

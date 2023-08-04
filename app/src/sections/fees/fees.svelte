@@ -19,7 +19,7 @@
           />
         </div>
       </div>
-      <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+      <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
         <h6 class="section-title bg-white text-start text-primary pe-3">
           Our Fees
         </h6>

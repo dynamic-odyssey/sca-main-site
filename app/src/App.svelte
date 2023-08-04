@@ -6,14 +6,14 @@
   import CoursesView from "./views/CoursesView.svelte";
   import ContactView from "./views/ContactView.svelte";
   import Navbar from "./components/navbar/navbar.svelte";
-  import Fees from "./sections/fees/fees.svelte";
+  import FeesView from "./views/FeesView.svelte";
 
   const routes = {
     "/": HomeView,
     "/about": AboutView,
     "/courses": CoursesView,
     "/contact": ContactView,
-    "/fees": Fees,
+    "/fees": FeesView,
   };
 </script>
 
