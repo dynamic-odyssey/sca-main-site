@@ -26,15 +26,16 @@
         <h1 class="mb-4">Welcome to Swakopmund Christian Academy...</h1>
         <p class="mb-4">
           Your visit at our school web page is noted with warmth and
-          expectation. Your unwavering search for a quality school that will
-          suit your child's holistic needs has come to fruition. We trust that
-          your experience with regards the information shared or gained is
-          sufficient and revolutionary. You are encouraged to let us know of
-          your views. Allow us to walk, grow, share and learn in partnership
-          with you on this exciting journey of your child's primary education.
-          Swakopmund Christian Academy is a seasoned private school project with
-          more than 30 years of tested educational expertise, offering English
-          1st Language education.
+          expectation. Your unwavering search for a high-quality,
+          technologically driven, and modern school that will suit your child's
+          holistic needs has finally come to fruition. We trust that your
+          experience with regards the information shared or gained is sufficient
+          and revolutionary. You are encouraged to let us know of your views
+          under our <u>contact</u> section. Allow us to walk, grow, share and learn
+          in partnership with you on this exciting journey of your child's education.
+          Swakopmund Christian Academy has been a seasoned private school since 1987
+          with more than 35 years of tested educational expertise. We offer English
+          1st Language education [ELA].
         </p>
         <p class="mb-4">
           “It is not beyond our power to create a world in which all children
@@ -50,7 +51,7 @@
           </div>
           <div class="col-sm-6">
             <p class="mb-0">
-              <i class="fa fa-arrow-right text-primary me-2" />Online Classes
+              <i class="fa fa-arrow-right text-primary me-2" />Digital Learning
             </p>
           </div>
           <div class="col-sm-6">
@@ -67,13 +68,25 @@
           </div>
           <div class="col-sm-6">
             <p class="mb-0">
-              <i class="fa fa-arrow-right text-primary me-2" />Face to Face
-              Classes
+              <i class="fa fa-arrow-right text-primary me-2" />Face-to-Face
+              Classes [Normal Schooling]
             </p>
           </div>
           <div class="col-sm-6">
             <p class="mb-0">
               <i class="fa fa-arrow-right text-primary me-2" />Tested Programs
+            </p>
+          </div>
+          <div class="col-sm-6">
+            <p class="mb-0">
+              <i class="fa fa-arrow-right text-primary me-2" />Learner Teacher
+              Ratio 15:1
+            </p>
+          </div>
+          <div class="col-sm-6">
+            <p class="mb-0">
+              <i class="fa fa-arrow-right text-primary me-2" />Learner
+              Device/Computer 1:1
             </p>
           </div>
         </div>

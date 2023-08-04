@@ -31,13 +31,13 @@
           </div>
           <div class="d-flex border-top">
             <small class="flex-fill text-center border-end py-2"
-              ><i class=" text-primary me-2" />African lang</small
+              ><i class=" text-primary me-2" />Indigenous African lang</small
             >
             <small class="flex-fill text-center border-end py-2"
-              ><i class="fa fa-clock text-primary me-2" />Gr 4-7</small
+              ><i class="fa fa-clock text-primary me-2" />Gr 4-8</small
             >
             <small class="flex-fill text-center py-2"
-              ><i class="fa fa-user text-primary me-2" />30 Students</small
+              ><i class="fa fa-user text-primary me-2" />Namibian</small
             >
           </div>
         </div>
@@ -58,17 +58,19 @@
           </div>
           <div class="text-center p-4 pb-0">
             <h3 class="mb-0" />
-            <h5 class="mb-4">German (Writing and Speech training)</h5>
+            <h5 class="mb-4">
+              German Foreign Language (Writing and Speech training)
+            </h5>
           </div>
           <div class="d-flex border-top">
             <small class="flex-fill text-center border-end py-2"
-              ><i class=" text-primary me-2" />European Lang</small
+              ><i class=" text-primary me-2" />European Language</small
             >
             <small class="flex-fill text-center border-end py-2"
               ><i class="fa fa-clock text-primary me-2" />Gr 4-8</small
             >
             <small class="flex-fill text-center py-2"
-              ><i class="fa fa-user text-primary me-2" />30 Students</small
+              ><i class="fa fa-user text-primary me-2" />Deutsch</small
             >
           </div>
         </div>

@@ -25,21 +25,81 @@
         </h6>
         <h1 class="mb-4">Welcome to Tuto ya Tulo ya Africa</h1>
         <p class="mb-4">
-          We constantly foster the intellectual and emotional growth of all our
-          learners by adapting our program and curriculum as such. We have a
-          real and actively strong home vs school communication system. A fun
-          and supportive school environment and year planner. Parents are not
-          just encouraged but expected to be involved in their child's school
-          life and always "kept in the loop'. <strong
-            ><b> We disgust in strong terms </b></strong
-          >all forms of discrimination, apartheid or groupings. We encourage
-          openness, citizenry, unity and reconciliation
+          Our motto is "Tuto ya Tulo ya Africa", a Lozy (Indigenous African
+          Language) saying which translates "Education is victory for Africa":
+          We have developed an Inclusive Integration of African Heritage in our
+          Education system.
         </p>
         <p class="mb-4">
-          Our mission is to provide excellence in education through a caring and
-          diverse environment that encourages the holistic development of each
-          student as part of our mandate. We prepare students with the means to
-          succeed in a challenging world
+          At Swakopmund Christian Academy, we believe in providing a
+          comprehensive and diverse educational experience that celebrates the
+          richness of African heritage while embracing a global perspective. Our
+          Philosophy, Tuto ya Tulo ya Africa, meaning "Footprints of Africa" in
+          the local language, is built upon the following core principles:
+        </p>
+        <p class="mb-4">
+          1. Cultural Integration: Tuto ya Tulo ya Africa recognizes the
+          significance of cultural diversity and aims to integrate the values,
+          traditions, and histories of Africa into the international curriculum.
+          By acknowleging and celebrating the unique aspects of African
+          heritage, we foster a sense of pride and identity in our students,
+          creating well-rounded global citizens with a deep appreciation for
+          their roots.
+        </p>
+        <p class="mb-4">
+          2. Global Awareness: While we emphasize the importance of African
+          heritage, we also instill in our students a keen understanding of
+          global interconnectedness. Through cross-cultural exchanges,
+          international partnerships, and exposure to diverse perspectives, our
+          students develop a broader outlook on the world, promoting tolerance,
+          empathy, and a sense of responsibility towards global issues.
+        </p>
+        <p class="mb-4">
+          3. Holistic Education: Tuto ya Tulo ya Africa is committed to
+          providing a holistic education that nurtures the mind, body and spirit
+          of each student. We believe in fostering intellectual curiosity,
+          critical thinking, creativity, and emotional intelligence, equipping
+          our students to excel in an ever-changing world while maintaining a
+          strong sense of compassion and empathy.
+        </p>
+        <p class="mb-4">
+          4. Environmental Consciousness: Africa's ecological diversity and
+          natural beauty are integral to our philosophy. We encourage a profound
+          connection to the environment and advocate for sustainable practices.
+          Through environmental education and conservation efforts, we inspire
+          our students to be responsible stewards of the plant, preserving its
+          resources for future generations.
+        </p>
+        <p class="mb-4">
+          5. Community Engagement: Tuto ya Tulo ya Africa emphasizes the
+          importance of active community involvement and social responsibility.
+          By engaging in service learning projects and community outreach
+          initiatives, our students gain an understanding of the challenges
+          faced by various communities and develop a commitment to contributing
+          positively to society.
+        </p>
+        <p class="mb-4">
+          6. Empowerment and Inclusivity: We believe in empowering all students,
+          irrespective of their background, abilities, or circumstances. Tuto ya
+          Tulo ya Africa ensures that every individual feels valued, respected,
+          and included in the learning process, fostering a supportive and
+          nurturing environment where everyone can thrive.
+        </p>
+        <p class="mb-4">
+          7. Lifelong Learning: Learning is a lifelong journey, and our
+          philosophy encourages a thirst for knowledge that extends beyond the
+          classroom. We inspire a love for learning, curiosity, and
+          self-discovery, equipping our students with the skills and mindset
+          necessary for continuous personal and intellectual growth throughout
+          their lives.
+        </p>
+        <p class="mb-4">
+          Tuto ya Tulo ya Africa is not just a symbol of Swakopmund Christian
+          Academy's commitment to African heritage but an ideology that enriches
+          the educational experience of every student. By embracing diversity,
+          global awareness, and a sense of responsibility, we prepare our
+          students to navigate the complexities of the world while preserving
+          and celebrating their African roots.
         </p>
         <div class="row gy-2 gx-4 mb-4">
           <div class="col-sm-6">
