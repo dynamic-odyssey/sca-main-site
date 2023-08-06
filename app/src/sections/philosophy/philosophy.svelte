@@ -80,6 +80,50 @@
                 </p>
 
                 <img
+                    class="img-fluid wow fadeInUp"
+                    data-wow-delay="0.6s"
+                    src="img/philosophy/stem.jpg"
+                    alt=""
+                    style="object-fit: contain;"
+                />
+                <div class="wow fadeInUp" data-wow-delay="0.6s">
+                    <h3 class="mb-4">STEM</h3>
+                    <p class="mb-4">
+                        STEM education, which stands for Science, Technology,
+                        Engineering, and Mathematics, plays a crucial role in
+                        preparing students for the challenges of the modern
+                        world. By emphasizing STEM education, Swakopmund
+                        Christian Academy is focused on providing students with
+                        the skills and knowledge needed to excel in fields that
+                        drive innovation and technological advancements.
+                    </p>
+                    <p class="mb-4">
+                        STEM education is not just about learning specific
+                        subjects; it also fosters critical thinking,
+                        problem-solving, creativity, and collaboration skills.
+                        By integrating STEM principles into our curriculum, the
+                        school is helping students develop a strong foundation
+                        in these areas, preparing them for future careers in
+                        various STEM-related fields.
+                    </p>
+                    <p class="mb-4">
+                        Furthermore, STEM education often encourages students to
+                        explore real-world applications of their knowledge
+                        through hands-on projects and experiential learning.
+                        This approach can make learning more engaging and
+                        practical, allowing students to see the direct impact of
+                        their studies.
+                    </p>
+                    <p class="mb-4">
+                        By investing in STEM education, Swakopmund Christian
+                        Academy is positioning its students to be better
+                        equipped to meet the challenges and opportunities of a
+                        rapidly advancing world and contribute to the
+                        advancement of science and technology in the future.
+                    </p>
+                </div>
+
+                <img
                     class="img-fluid mb-4"
                     src="img/philosophy/learner-centered.jpg"
                     alt=""
@@ -227,50 +271,117 @@
                     </div>
 
                     <img
-                        class="img-fluid wow fadeInUp"
+                        class="img-fluid mb-4 wow fadeInUp"
                         data-wow-delay="0.6s"
-                        src="img/philosophy/stem.jpg"
+                        src="img/philosophy/culture-nature.jpg"
                         alt=""
                         style="object-fit: contain;"
                     />
                     <div class="wow fadeInUp" data-wow-delay="0.6s">
-                        <h3 class="mb-4">STEM</h3>
+                        <h3 class="mb-4">Culture & Nature</h3>
                         <p class="mb-4">
-                            STEM education, which stands for Science,
-                            Technology, Engineering, and Mathematics, plays a
-                            crucial role in preparing students for the
-                            challenges of the modern world. By emphasizing STEM
-                            education, Swakopmund Christian Academy is focused
-                            on providing students with the skills and knowledge
-                            needed to excel in fields that drive innovation and
-                            technological advancements.
+                            Swakopmund Christian Academy (SCA) is an educational
+                            institution located in Swakopmund, Namibia. Despite
+                            its name, SCA does not function as a religious
+                            institution in the traditional sense. Instead, it
+                            adopts a unique approach to education, emphasizing a
+                            “soft Christian” culture for the purposes of
+                            discipline, leadership, and guidance.
+                        </p>
+                        <a
+                            href="https://en.wikipedia.org/wiki/Religion_in_Namibia"
+                            >According to the Namibia Demographic and Health
+                            Surveys (2023), more than 90 percent of Namibian
+                            citizens identify themselves as Christian.</a
+                        >
+                        <p class="mb-4 mt-4">
+                            The term "soft Christian culture" implies that while
+                            the academy may draw inspiration from Christian
+                            values and teachings, it does not impose a strict
+                            adherence to any particular religious doctrine.
+                            Instead, it incorporates aspects of Christian
+                            principles into its educational philosophy to foster
+                            a supportive and moral learning environment.
+                        </p>
+                        <h5 class="mb-4">
+                            Here are some key points that elaborate on the
+                            nature of Swakopmund Christian Academy:
+                        </h5>
+                        <p class="mb-4">
+                            1. Non-Denominational Approach: SCA is
+                            non-denominational, meaning it doesn't align itself
+                            with any specific Christian denomination. By doing
+                            so, the academy welcomes students from diverse
+                            religious backgrounds, promoting an inclusive
+                            atmosphere that respects individual beliefs and
+                            practices.
                         </p>
                         <p class="mb-4">
-                            STEM education is not just about learning specific
-                            subjects; it also fosters critical thinking,
-                            problem-solving, creativity, and collaboration
-                            skills. By integrating STEM principles into our
-                            curriculum, the school is helping students develop a
-                            strong foundation in these areas, preparing them for
-                            future careers in various STEM-related fields.
+                            2. Values and Ethics: The soft Christian culture of
+                            SCA emphasizes values such as compassion, kindness,
+                            integrity, and respect. These principles are woven
+                            into the school's code of conduct, providing a moral
+                            compass for students and promoting a positive and
+                            harmonious school community.
                         </p>
                         <p class="mb-4">
-                            Furthermore, STEM education often encourages
-                            students to explore real-world applications of their
-                            knowledge through hands-on projects and experiential
-                            learning. This approach can make learning more
-                            engaging and practical, allowing students to see the
-                            direct impact of their studies.
+                            3. Character Development: Apart from academic
+                            achievement, SCA places a strong emphasis on
+                            character development. Through incorporating
+                            Christian teachings, the academy aims to nurture
+                            qualities like responsibility, empathy, and
+                            perseverance in its students.
                         </p>
                         <p class="mb-4">
-                            By investing in STEM education, Swakopmund Christian
-                            Academy is positioning its students to be better
-                            equipped to meet the challenges and opportunities of
-                            a rapidly advancing world and contribute to the
-                            advancement of science and technology in the future.
+                            4. Leadership and Guidance: The academy may use
+                            biblical principles or examples of leadership from
+                            Christian history to teach students about effective
+                            leadership and guidance. This can include lessons on
+                            servant leadership, ethical decision-making, and
+                            mentorship.
+                        </p>
+                        <p class="mb-4">
+                            5. Religious Education vs. Religious
+                            Indoctrination:** It's important to note that SCA's
+                            approach does not involve religious indoctrination.
+                            While students may be exposed to Christian teachings
+                            and stories, the main goal is to encourage critical
+                            thinking and moral reflection rather than imposing
+                            specific beliefs on them.
+                        </p>
+                        <p class="mb-4">
+                            6. Openness to Diversity: Despite its Christian
+                            foundation, SCA is maintaining an open and accepting
+                            environment for students of all faiths or none at
+                            all. It may encourage discussions on various belief
+                            systems and foster an atmosphere of understanding
+                            and tolerance.
+                        </p>
+                        <p class="mb-4">
+                            7. Parental Involvement: To reinforce the soft
+                            Christian culture, the academy encourages parental
+                            involvement. Parents may be invited to participate
+                            in school activities, engage in discussions with
+                            educators, and play a role in their child's moral
+                            and character development.
+                        </p>
+                        <p class="mb-4">
+                            Overall, Swakopmund Christian Academy's soft
+                            Christian culture aims to provide a balanced and
+                            nurturing educational experience that goes beyond
+                            academics. By incorporating Christian values into
+                            the fabric of the school, it aspires to produce
+                            well-rounded individuals who can contribute
+                            positively to society, regardless of their religious
+                            affiliations.
                         </p>
                     </div>
                 </div>
+                <a
+                    class="btn btn-primary py-3 px-5 mt-2"
+                    use:link
+                    href="/contact">Get In Touch</a
+                >
             </div>
         </div>
     </div>
