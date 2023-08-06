@@ -3,6 +3,8 @@
   import Services from "../sections/services/services.svelte";
   import Team from "../sections/team/team.svelte";
   import WhyUs from "../sections/why-us/whyUs.svelte";
+  import Fees from "../sections/fees/fees.svelte";
+  import Philosophy from "../sections/philosophy/philosophy.svelte";
 </script>
 
 <div class="container-fluid bg-primary py-5 mb-5 page-header">
@@ -27,6 +29,7 @@
 
 <Services vmf={true} />
 <WhyUs />
+<Philosophy />
 <Team showAll={true} />
 
 <style>
