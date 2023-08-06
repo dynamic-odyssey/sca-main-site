@@ -152,11 +152,6 @@
                         responsibility and self-direction.
                     </p>
                 </div>
-                <a
-                    class="btn btn-primary py-3 px-5 mt-2"
-                    use:link
-                    href="/contact">Get In Touch</a
-                >
             </div>
             <div
                 class="col-lg-6 wow fadeInUp justify-content-start"
@@ -228,6 +223,51 @@
                             skills and attributes necessary to become
                             well-rounded individuals who can positively
                             contribute to society and lead fulfilling lives.
+                        </p>
+                    </div>
+
+                    <img
+                        class="img-fluid wow fadeInUp"
+                        data-wow-delay="0.6s"
+                        src="img/philosophy/stem.jpg"
+                        alt=""
+                        style="object-fit: contain;"
+                    />
+                    <div class="wow fadeInUp" data-wow-delay="0.6s">
+                        <h3 class="mb-4">STEM</h3>
+                        <p class="mb-4">
+                            STEM education, which stands for Science,
+                            Technology, Engineering, and Mathematics, plays a
+                            crucial role in preparing students for the
+                            challenges of the modern world. By emphasizing STEM
+                            education, Swakopmund Christian Academy is focused
+                            on providing students with the skills and knowledge
+                            needed to excel in fields that drive innovation and
+                            technological advancements.
+                        </p>
+                        <p class="mb-4">
+                            STEM education is not just about learning specific
+                            subjects; it also fosters critical thinking,
+                            problem-solving, creativity, and collaboration
+                            skills. By integrating STEM principles into our
+                            curriculum, the school is helping students develop a
+                            strong foundation in these areas, preparing them for
+                            future careers in various STEM-related fields.
+                        </p>
+                        <p class="mb-4">
+                            Furthermore, STEM education often encourages
+                            students to explore real-world applications of their
+                            knowledge through hands-on projects and experiential
+                            learning. This approach can make learning more
+                            engaging and practical, allowing students to see the
+                            direct impact of their studies.
+                        </p>
+                        <p class="mb-4">
+                            By investing in STEM education, Swakopmund Christian
+                            Academy is positioning its students to be better
+                            equipped to meet the challenges and opportunities of
+                            a rapidly advancing world and contribute to the
+                            advancement of science and technology in the future.
                         </p>
                     </div>
                 </div>
