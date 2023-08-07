@@ -2,7 +2,7 @@
   import { link } from "svelte-spa-router";
   import Categories from "../sections/categories/categories.svelte";
   import Courses from "../sections/courses/courses.svelte";
-  import Pricing from "../sections/pricing/pricing.svelte";
+  import Fees from "../sections/fees/fees.svelte";
 </script>
 
 <div class="container-fluid bg-primary py-5 mb-5 page-header">
@@ -27,7 +27,7 @@
 
 <Categories />
 <Courses />
-<Pricing />
+<Fees />
 
 <style>
 </style>
