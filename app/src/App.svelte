@@ -7,10 +7,12 @@
   import ContactView from "./views/ContactView.svelte";
   import Navbar from "./components/navbar/navbar.svelte";
   import FeesView from "./views/FeesView.svelte";
+  import GovernanceView from "./views/GovernanceView.svelte";
 
   const routes = {
     "/": HomeView,
     "/about": AboutView,
+    "/governance": GovernanceView,
     "/courses": CoursesView,
     "/contact": ContactView,
     "/fees": FeesView,

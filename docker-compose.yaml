@@ -22,6 +22,7 @@ services:
       - "8091:8090"
     volumes:
       - ./.vscode-server-pb:/root/.vscode-server
+      - ./.go:/go
       - ./pb:/pb-dev
       - ./pb_migrations:/pocketbase/pb_migrations
       - ./pb_public:/pocketbase/pb_public
