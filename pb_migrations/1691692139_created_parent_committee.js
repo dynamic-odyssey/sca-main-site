@@ -1,15 +1,15 @@
 migrate((db) => {
   const collection = new Collection({
-    "id": "op6d6pxjq6b1nd6",
-    "created": "2023-06-20 14:35:54.911Z",
-    "updated": "2023-06-20 14:35:54.911Z",
-    "name": "contact_requests",
+    "id": "kkseiirz8ytscxw",
+    "created": "2023-08-10 18:28:59.187Z",
+    "updated": "2023-08-10 18:28:59.187Z",
+    "name": "parent_committee",
     "type": "base",
     "system": false,
     "schema": [
       {
         "system": false,
-        "id": "gqvofjd0",
+        "id": "7lf3rj0n",
         "name": "name",
         "type": "text",
         "required": false,
@@ -22,20 +22,20 @@ migrate((db) => {
       },
       {
         "system": false,
-        "id": "rnomf7fk",
+        "id": "ttkomtvt",
         "name": "email",
         "type": "email",
         "required": false,
         "unique": false,
         "options": {
-          "exceptDomains": null,
-          "onlyDomains": null
+          "exceptDomains": [],
+          "onlyDomains": []
         }
       },
       {
         "system": false,
-        "id": "eailsf4l",
-        "name": "subject",
+        "id": "z1bpje1m",
+        "name": "cell",
         "type": "text",
         "required": false,
         "unique": false,
@@ -47,7 +47,7 @@ migrate((db) => {
       },
       {
         "system": false,
-        "id": "scsnerw0",
+        "id": "89mslqik",
         "name": "message",
         "type": "text",
         "required": false,
@@ -71,7 +71,7 @@ migrate((db) => {
   return Dao(db).saveCollection(collection);
 }, (db) => {
   const dao = new Dao(db);
-  const collection = dao.findCollectionByNameOrId("op6d6pxjq6b1nd6");
+  const collection = dao.findCollectionByNameOrId("kkseiirz8ytscxw");
 
   return dao.deleteCollection(collection);
 })

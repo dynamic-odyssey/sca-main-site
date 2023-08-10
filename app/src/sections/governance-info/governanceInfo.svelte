@@ -1,5 +1,51 @@
 <script lang="ts">
     import { link } from "svelte-spa-router";
+
+    import pb from "../../api/pb";
+    import { TABLE_NAMES, type IContactUs } from "../../interfaces/interfaces";
+
+    let loading: boolean = false;
+    let newContactMessage: IContactUs = {
+        name: "",
+        email: "",
+        subject: "",
+        message: "",
+    };
+
+    const sendMessage = async (event: Event) => {
+        event.preventDefault();
+
+        if (
+            newContactMessage.name === "" ||
+            newContactMessage.email === "" ||
+            newContactMessage.subject === "" ||
+            newContactMessage.message === ""
+        ) {
+            alert("Please fill in all fields");
+            return;
+        }
+
+        try {
+            loading = true;
+            const quote = await pb
+                .collection(TABLE_NAMES.CONTACT_US)
+                .create(newContactMessage);
+            console.log(quote);
+            loading = false;
+
+            alert("Message successfully sent!");
+            newContactMessage = {
+                name: "",
+                email: "",
+                subject: "",
+                message: "",
+            };
+        } catch (e) {
+            console.log(e);
+            loading = false;
+            alert("Failed to send message! Try again later.");
+        }
+    };
 </script>
 
 <div class="container-xxl py-5">
@@ -326,6 +372,79 @@
             Christian Academy. Together, we can create a nurturing and inspiring
             educational journey for our children.
         </div>
+    </div>
+
+    <div class="container">
+        <form on:submit={(e) => sendMessage(e)}>
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <div class="form-floating">
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="name"
+                            placeholder="Your Name"
+                            bind:value={newContactMessage.name}
+                            required
+                        />
+                        <label for="name">Your Name</label>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-floating">
+                        <input
+                            type="email"
+                            class="form-control"
+                            id="email"
+                            placeholder="Your Email"
+                            bind:value={newContactMessage.email}
+                            required
+                        />
+                        <label for="email">Your Email</label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-floating">
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="subject"
+                            placeholder="Subject"
+                            bind:value={newContactMessage.subject}
+                            required
+                        />
+                        <label for="subject">Subject</label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-floating">
+                        <textarea
+                            class="form-control"
+                            placeholder="Leave a message here"
+                            id="message"
+                            style="height: 150px"
+                            bind:value={newContactMessage.message}
+                            required
+                        />
+                        <label for="message">Message</label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button class="btn btn-primary w-100 py-3" type="submit"
+                        >{#if loading}
+                            <div
+                                class="spinner-border text-light"
+                                role="status"
+                            >
+                                <span class="visually-hidden" />
+                            </div>
+                        {:else}
+                            Send Message
+                        {/if}</button
+                    >
+                </div>
+            </div>
+        </form>
     </div>
 </div>
 
