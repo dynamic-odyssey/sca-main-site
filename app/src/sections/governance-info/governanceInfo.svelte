@@ -2,24 +2,27 @@
     import { link } from "svelte-spa-router";
 
     import pb from "../../api/pb";
-    import { TABLE_NAMES, type IContactUs } from "../../interfaces/interfaces";
+    import {
+        TABLE_NAMES,
+        type IParentCommittee,
+    } from "../../interfaces/interfaces";
 
     let loading: boolean = false;
-    let newContactMessage: IContactUs = {
+    let newParentCommittee: IParentCommittee = {
         name: "",
         email: "",
-        subject: "",
+        cell: "",
         message: "",
     };
 
-    const sendMessage = async (event: Event) => {
+    const joinParentCommittee = async (event: Event) => {
         event.preventDefault();
 
         if (
-            newContactMessage.name === "" ||
-            newContactMessage.email === "" ||
-            newContactMessage.subject === "" ||
-            newContactMessage.message === ""
+            newParentCommittee.name === "" ||
+            newParentCommittee.email === "" ||
+            newParentCommittee.cell === "" ||
+            newParentCommittee.message === ""
         ) {
             alert("Please fill in all fields");
             return;
@@ -27,17 +30,32 @@
 
         try {
             loading = true;
-            const quote = await pb
-                .collection(TABLE_NAMES.CONTACT_US)
-                .create(newContactMessage);
-            console.log(quote);
+
+            try {
+                await pb
+                    .collection(TABLE_NAMES.PARENT_COMMITTEE)
+                    .getFirstListItem<IParentCommittee>(
+                        `email="${newParentCommittee.email}"`
+                    );
+
+                alert(
+                    "You have already requested to be a part of the community"
+                );
+                loading = false;
+                return;
+            } catch (e) {}
+
+            await pb
+                .collection(TABLE_NAMES.PARENT_COMMITTEE)
+                .create(newParentCommittee);
+
             loading = false;
 
             alert("Message successfully sent!");
-            newContactMessage = {
+            newParentCommittee = {
                 name: "",
                 email: "",
-                subject: "",
+                cell: "",
                 message: "",
             };
         } catch (e) {
@@ -374,8 +392,9 @@
         </div>
     </div>
 
-    <div class="container">
-        <form on:submit={(e) => sendMessage(e)}>
+    <div class="container my-5">
+        <h2 class="pb-3">Join the Parent Committee Now!</h2>
+        <form class="w-75" on:submit={(e) => joinParentCommittee(e)}>
             <div class="row g-3">
                 <div class="col-md-6">
                     <div class="form-floating">
@@ -384,7 +403,7 @@
                             class="form-control"
                             id="name"
                             placeholder="Your Name"
-                            bind:value={newContactMessage.name}
+                            bind:value={newParentCommittee.name}
                             required
                         />
                         <label for="name">Your Name</label>
@@ -393,27 +412,27 @@
                 <div class="col-md-6">
                     <div class="form-floating">
                         <input
-                            type="email"
+                            type="text"
                             class="form-control"
-                            id="email"
-                            placeholder="Your Email"
-                            bind:value={newContactMessage.email}
+                            id="subject"
+                            placeholder="Cell"
+                            bind:value={newParentCommittee.cell}
                             required
                         />
-                        <label for="email">Your Email</label>
+                        <label for="subject">Cell</label>
                     </div>
                 </div>
                 <div class="col-12">
                     <div class="form-floating">
                         <input
-                            type="text"
+                            type="email"
                             class="form-control"
-                            id="subject"
-                            placeholder="Subject"
-                            bind:value={newContactMessage.subject}
+                            id="email"
+                            placeholder="Your Email"
+                            bind:value={newParentCommittee.email}
                             required
                         />
-                        <label for="subject">Subject</label>
+                        <label for="email">Your Email</label>
                     </div>
                 </div>
                 <div class="col-12">
@@ -423,10 +442,10 @@
                             placeholder="Leave a message here"
                             id="message"
                             style="height: 150px"
-                            bind:value={newContactMessage.message}
+                            bind:value={newParentCommittee.message}
                             required
                         />
-                        <label for="message">Message</label>
+                        <label for="message">Supporting Message</label>
                     </div>
                 </div>
                 <div class="col-12">
@@ -439,7 +458,7 @@
                                 <span class="visually-hidden" />
                             </div>
                         {:else}
-                            Send Message
+                            Join Now
                         {/if}</button
                     >
                 </div>
