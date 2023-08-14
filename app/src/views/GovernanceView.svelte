@@ -1,6 +1,6 @@
 <script lang="ts">
     import { link } from "svelte-spa-router";
-    import Fees from "../sections/fees/fees.svelte";
+    import GovernanceInfo from "../sections/governance-info/governanceInfo.svelte";
 </script>
 
 <div class="container-fluid bg-primary py-5 mb-5 page-header">
@@ -8,7 +8,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-10 text-center">
                 <h1 class="display-3 text-white animated slideInDown">
-                    Our Fees
+                    Governance
                 </h1>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb justify-content-center">
@@ -19,7 +19,7 @@
                             class="breadcrumb-item text-white active"
                             aria-current="page"
                         >
-                            Fees
+                            Governance
                         </li>
                     </ol>
                 </nav>
@@ -28,7 +28,7 @@
     </div>
 </div>
 
-<Fees />
+<GovernanceInfo />
 
 <style>
 </style>

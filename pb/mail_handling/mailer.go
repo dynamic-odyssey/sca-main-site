@@ -45,6 +45,9 @@ func OnMessageFromClientReceived(app *pocketbase.PocketBase, e *core.RecordCreat
 	case "contact_us_messages":
 		messageType = CONTACT_REQUEST
 		subject = "Contact Request"
+	case "parent_committee":
+		messageType = PARENT_COMMITTEE
+		subject = "Parent Committee Request"
 	default:
 		return nil
 	}
