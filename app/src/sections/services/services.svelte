@@ -14,11 +14,12 @@
               <i class="fa fa-3x fa-graduation-cap text-primary mb-4" />
               <h5 class="mb-3">Educational Expertise</h5>
               <p>
-                With 35 Years of private schooling expertise in education, we
-                have a committed, friendly and effective teaching staff who at
-                all times act to the benefit of each and every learner. We
-                provide a safe school environment where learners feel protected
-                and cared for.
+                Swakopmund Christian Academy was established in 1987, ever
+                since, it has matured into a High-Quality driven private school.
+                Our school has a committed, friendly, qualified, and effective
+                teaching staff who at all times act to the benefit of each and
+                every learner. We provide a safe school environment where
+                learners feel protected and cared for.
               </p>
             </div>
           </div>
@@ -27,12 +28,15 @@
           <div class="service-item text-center pt-3 h-100 d-flex flex-column">
             <div class="p-4 flex-grow-1">
               <i class="fa fa-3x fa-globe text-primary mb-4" />
-              <h5 class="mb-3">Online Classes</h5>
+              <h5 class="mb-3">Hybrid Learning</h5>
               <p>
-                Swakopmund Christian Academy embraces online learning, offering
-                flexible and accessible classes. Through platforms like
-                E-Learning and ITS, students can access high-quality education
-                from anywhere, fostering engagement and collaboration.
+                Swakopmund Christian Academy embraces hybrid learning, allowing
+                it to give flexible, qualitative, and accessible classes.
+                Through platforms like eLearning and ITS (Administrative
+                Management) students can access high-quality education from
+                anywhere, fostering engagement and collaboration. Masterfully,
+                combining digital (online) learning with traditional
+                face-to-face teaching.
               </p>
             </div>
           </div>
@@ -44,9 +48,9 @@
               <h5 class="mb-3">Projects</h5>
               <p>
                 Projects are integral to our curriculum, promoting hands-on
-                learning, critical thinking, and creativity. Our skilled
-                teachers guide students in exploring their interests and
-                developing their unique talents.
+                learning, learner centeredness, critical thinking, and
+                creativity. Our skilled teachers guide students in exploring
+                their interests and developing their unique talents.
               </p>
             </div>
           </div>
@@ -60,7 +64,8 @@
                 While our physical book resources are limited, we are actively
                 developing an extensive online book library. Our goal is to
                 provide students with a wide range of digital resources to
-                enhance their learning experience and foster a love for reading.
+                enhance their learning experience and foster a love for
+                research, and reading.
               </p>
             </div>
           </div>

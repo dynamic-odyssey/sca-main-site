@@ -32,9 +32,13 @@
     <div class="navbar-nav ms-auto p-4 p-lg-0">
       <a href="/" use:link use:active class="nav-item nav-link">Home</a>
       <a href="/about" use:link use:active class="nav-item nav-link">About</a>
+      <a href="/governance" use:link use:active class="nav-item nav-link"
+        >Governance</a
+      >
       <a href="/courses" use:link use:active class="nav-item nav-link"
         >Courses</a
       >
+      <a href="/fees" use:link use:active class="nav-item nav-link">Fees</a>
       <a href="/contact" use:link use:active class="nav-item nav-link active"
         >Contact</a
       >
