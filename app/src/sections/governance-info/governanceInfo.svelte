@@ -262,9 +262,9 @@
                         </p>
                     </div>
                     <div class="col">
-                        <h5 class="mb-3">
+                        <h4 class="mb-3">
                             <b> 3. Structure and Mandate of the Parental Committee: </b>
-                        </h5>
+                        </h4>
                         <p class="mb-3">
                             The structure and mandate of the Parental Committee will be determined by the School Board, in consultation with the school principal and parent representatives. This collaborative approach will ensure that the association's activities align with the school's values, goals, and overall vision. Regular meetings will be held to discuss matters pertaining to school development, events, and ways to enhance the educational experience for our students.
                         </p>
