@@ -80,7 +80,7 @@
         <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
           <div class="service-item text-center pt-3">
             <div class="p-4">
-              <i class="fa fa-3x fa-bible text-primary mb-4" />
+              <i class="fa fa-3x fa-eye text-primary mb-4" />
               <h5 class="mb-3">Vision</h5>
               <p>
                 Train up a child in the way he should go and when he is old he
@@ -94,7 +94,7 @@
         <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
           <div class="service-item text-center pt-3">
             <div class="p-4">
-              <i class="fa fa-3x fa-church text-primary mb-4" />
+              <i class="fa fa-3x fa-rocket text-primary mb-4" />
               <h5 class="mb-3">Mission</h5>
               <p>
                 Our mission is to provide excellence in education through a
@@ -111,9 +111,7 @@
               <i class="fa fa-3x fa-cross text-primary mb-4" />
               <h5 class="mb-3">Faith</h5>
               <p>
-                We believe: The Bible is the divinely inspired, infallible,
-                inerrant and authoritative Word of God. We accept it as our
-                supreme final authority in matters of faith, conduct and life.
+                The personal "Faith Statement" of the owner(s) can be found at the last section of the page from the link provided below.
               </p>
             </div>
           </div>

@@ -11,8 +11,7 @@
                 </h6>
                 <h1 class="mb-4">Our Approach to Quality Education</h1>
                 <p class="mb-4">
-                    Our motto is "Tuto ya Tulo ya Africa", a Lozy (Indigenous
-                    African Language) saying which translates "Education is
+                    Our motto is "Elimu ni Ushidi kwa Afrika", a Lozy (Swahili, African) saying which translates "Education is
                     victory for Africa": We have developed an Inclusive
                     Integration of African Heritage in our Education system.
                 </p>
@@ -20,8 +19,7 @@
                     At Swakopmund Christian Academy, we believe in providing a
                     comprehensive and diverse educational experience that
                     celebrates the richness of African heritage while embracing
-                    a global perspective. Our Philosophy, Tuto ya Tulo ya
-                    Africa, meaning "Footprints of Africa" in the local
+                    a global perspective. Our Philosophy, Elimu ni Ushidi kwa Africa, meaning "Education is Victory for Africa" in the local
                     language, is built upon the following core principles:
                 </p>
                 <p class="mb-4">

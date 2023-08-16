@@ -3,6 +3,7 @@
   import Categories from "../sections/categories/categories.svelte";
   import Courses from "../sections/courses/courses.svelte";
   import Fees from "../sections/fees/fees.svelte";
+    import CoursesInfo from "../sections/courses-info/coursesInfo.svelte";
 </script>
 
 <div class="container-fluid bg-primary py-5 mb-5 page-header">
@@ -26,8 +27,19 @@
 </div>
 
 <Categories />
+<CoursesInfo />
 <Courses />
 <Fees />
 
 <style>
+  .container-fluid.bg-primary.py-5.mb-5.page-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/4.JPG) no-repeat center center;
+    background-size: cover;
+}
+.container-fluid.bg-primary.py-5.mb-5.page-header::before {
+    content: "";
+    background: inherit;
+    filter: blur(5px);  /* Blurs the background image */
+    z-index: -1;
+}
 </style>
