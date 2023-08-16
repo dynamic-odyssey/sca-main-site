@@ -35,4 +35,14 @@
 <Team showAll={true} />
 
 <style>
+  .container-fluid.bg-primary.py-5.mb-5.page-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/AboutUs.JPG) no-repeat center center;
+    background-size: cover;
+}
+.container-fluid.bg-primary.py-5.mb-5.page-header::before {
+    content: "";
+    background: inherit;
+    filter: blur(5px);  /* Blurs the background image */
+    z-index: -1;
+}
 </style>
