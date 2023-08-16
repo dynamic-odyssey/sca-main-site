@@ -3,6 +3,7 @@
   import Categories from "../sections/categories/categories.svelte";
   import Courses from "../sections/courses/courses.svelte";
   import Fees from "../sections/fees/fees.svelte";
+    import CoursesInfo from "../sections/courses-info/coursesInfo.svelte";
 </script>
 
 <div class="container-fluid bg-primary py-5 mb-5 page-header">
@@ -26,6 +27,7 @@
 </div>
 
 <Categories />
+<CoursesInfo />
 <Courses />
 <Fees />
 

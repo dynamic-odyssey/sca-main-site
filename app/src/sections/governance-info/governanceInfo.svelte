@@ -78,7 +78,7 @@
             <div class="m-1 rounded">
                 <img
                     class="img-fluid"
-                    src="img/governance/governance.webp"
+                    src="img/GovernancePhoto.png"
                     alt=""
                 />
             </div>
