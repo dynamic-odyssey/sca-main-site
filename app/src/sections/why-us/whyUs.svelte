@@ -13,7 +13,7 @@
         <div class="position-relative h-100">
           <img
             class="img-fluid position-absolute w-100 h-100"
-            src="img/Idea.jpg"
+            src="img/TutoTula.png"
             alt=""
             style="object-fit: cover;"
           />
@@ -33,11 +33,11 @@
           At Swakopmund Christian Academy, we believe in providing a
           comprehensive and diverse educational experience that celebrates the
           richness of African heritage while embracing a global perspective. Our
-          Ideology, Elimu ni Ushidi kwa Africa, meaning "Education is Victory for Africa" in
+          Ideology, Elimu ni Ushidi kwa Afrika, meaning "Education is Victory for Africa" in
           the local language, is built upon the following core principles:
         </p>
         <p class="mb-4">
-          1. Cultural Integration: Tuto ya Tulo ya Africa recognizes the
+          1. Cultural Integration: Elimu ni Ushidi kwa Afrika recognizes the
           significance of cultural diversity and aims to integrate the values,
           traditions, and histories of Africa into the international curriculum.
           By acknowleging and celebrating the unique aspects of African
