@@ -78,7 +78,7 @@
             <div class="m-1 rounded">
                 <img
                     class="img-fluid"
-                    src="img/Governance.png"
+                    src="img/Education.png"
                     alt=""
                 />
             </div>
