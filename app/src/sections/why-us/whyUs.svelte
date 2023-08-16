@@ -13,7 +13,7 @@
         <div class="position-relative h-100">
           <img
             class="img-fluid position-absolute w-100 h-100"
-            src="img/Idea.jpg"
+            src="img/TutoTula.png"
             alt=""
             style="object-fit: cover;"
           />
@@ -23,10 +23,9 @@
         <h6 class="section-title bg-white text-start text-primary pe-3">
           About Us
         </h6>
-        <h1 class="mb-4">Welcome to Tuto ya Tulo ya Africa</h1>
+        <h1 class="mb-4">Welcome to Elimu ni Ushindi kwa Afrika</h1>
         <p class="mb-4">
-          Our motto is "Tuto ya Tulo ya Africa", a Lozy (Indigenous African
-          Language) saying which translates "Education is victory for Africa":
+          Our motto is "Elimu ni Ushidi kwa Afrika", a Lozy (Swahili, African) saying which translates "Education is victory for Africa":
           We have developed an Inclusive Integration of African Heritage in our
           Education system.
         </p>
@@ -34,11 +33,11 @@
           At Swakopmund Christian Academy, we believe in providing a
           comprehensive and diverse educational experience that celebrates the
           richness of African heritage while embracing a global perspective. Our
-          Philosophy, Tuto ya Tulo ya Africa, meaning "Footprints of Africa" in
+          Ideology, Elimu ni Ushidi kwa Afrika, meaning "Education is Victory for Africa" in
           the local language, is built upon the following core principles:
         </p>
         <p class="mb-4">
-          1. Cultural Integration: Tuto ya Tulo ya Africa recognizes the
+          1. Cultural Integration: Elimu ni Ushidi kwa Afrika recognizes the
           significance of cultural diversity and aims to integrate the values,
           traditions, and histories of Africa into the international curriculum.
           By acknowleging and celebrating the unique aspects of African
@@ -55,7 +54,7 @@
           empathy, and a sense of responsibility towards global issues.
         </p>
         <p class="mb-4">
-          3. Holistic Education: Tuto ya Tulo ya Africa is committed to
+          3. Holistic Education: Elimu ni Ushidi kwa Afrika is committed to
           providing a holistic education that nurtures the mind, body and spirit
           of each student. We believe in fostering intellectual curiosity,
           critical thinking, creativity, and emotional intelligence, equipping
@@ -71,7 +70,7 @@
           resources for future generations.
         </p>
         <p class="mb-4">
-          5. Community Engagement: Tuto ya Tulo ya Africa emphasizes the
+          5. Community Engagement: Elimu ni Ushidi kwa Africa emphasizes the
           importance of active community involvement and social responsibility.
           By engaging in service learning projects and community outreach
           initiatives, our students gain an understanding of the challenges
@@ -80,8 +79,7 @@
         </p>
         <p class="mb-4">
           6. Empowerment and Inclusivity: We believe in empowering all students,
-          irrespective of their background, abilities, or circumstances. Tuto ya
-          Tulo ya Africa ensures that every individual feels valued, respected,
+          irrespective of their background, abilities, or circumstances. Elimu ni Ushidi kwa Afrika ensures that every individual feels valued, respected,
           and included in the learning process, fostering a supportive and
           nurturing environment where everyone can thrive.
         </p>
@@ -94,7 +92,7 @@
           their lives.
         </p>
         <p class="mb-4">
-          Tuto ya Tulo ya Africa is not just a symbol of Swakopmund Christian
+          Elimu ni Ushidi kwa Afrika is not just a symbol of Swakopmund Christian
           Academy's commitment to African heritage but an ideology that enriches
           the educational experience of every student. By embracing diversity,
           global awareness, and a sense of responsibility, we prepare our
@@ -109,7 +107,7 @@
           </div>
           <div class="col-sm-6">
             <p class="mb-0">
-              <i class="fa fa-arrow-right text-primary me-2" />Education
+              <i class="fa fa-arrow-right text-primary me-2" />High-Quality Education
             </p>
           </div>
           <div class="col-sm-6">
