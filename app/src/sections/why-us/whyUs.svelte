@@ -23,9 +23,9 @@
         <h6 class="section-title bg-white text-start text-primary pe-3">
           About Us
         </h6>
-        <h1 class="mb-4">Welcome to Elimu ni Ushindi kwa Afrika</h1>
+        <h1 class="mb-4">Elimu ni Ushindi kwa Afrika</h1>
         <p class="mb-4">
-          Our motto is "Elimu ni Ushidi kwa Afrika", a Lozy (Swahili, African) saying which translates "Education is victory for Africa":
+          "Elimu ni Ushidi kwa Afrika", a (Swahili, African) saying which translates "Education is victory for Africa":
           We have developed an Inclusive Integration of African Heritage in our
           Education system.
         </p>
@@ -102,34 +102,42 @@
         <div class="row gy-2 gx-4 mb-4">
           <div class="col-sm-6">
             <p class="mb-0">
-              <i class="fa fa-arrow-right text-primary me-2" />Innovation
+              <i class="fa fa-arrow-right text-primary me-2" />Skilled Instructors
             </p>
           </div>
           <div class="col-sm-6">
             <p class="mb-0">
-              <i class="fa fa-arrow-right text-primary me-2" />High-Quality Education
+              <i class="fa fa-arrow-right text-primary me-2" />International Resources
             </p>
           </div>
           <div class="col-sm-6">
             <p class="mb-0">
-              <i class="fa fa-arrow-right text-primary me-2" />International
-              Standards
+              <i class="fa fa-arrow-right text-primary me-2" />Face-to-Face Classes [Normal Schooling]
             </p>
           </div>
           <div class="col-sm-6">
             <p class="mb-0">
-              <i class="fa fa-arrow-right text-primary me-2" />Skilled
-              Instructors
+              <i class="fa fa-arrow-right text-primary me-2" />Learner Teacher Ratio 15:1
             </p>
           </div>
           <div class="col-sm-6">
             <p class="mb-0">
-              <i class="fa fa-arrow-right text-primary me-2" />Online Classes
+              <i class="fa fa-arrow-right text-primary me-2" />Digital Learning
             </p>
           </div>
           <div class="col-sm-6">
             <p class="mb-0">
-              <i class="fa fa-arrow-right text-primary me-2" />Blended Learning
+              <i class="fa fa-arrow-right text-primary me-2" />Skilled Developers
+            </p>
+          </div>
+          <div class="col-sm-6">
+            <p class="mb-0">
+              <i class="fa fa-arrow-right text-primary me-2" />Tested Programs
+            </p>
+          </div>
+          <div class="col-sm-6">
+            <p class="mb-0">
+              <i class="fa fa-arrow-right text-primary me-2" />Learner Device/Computer 1:1
             </p>
           </div>
         </div>
