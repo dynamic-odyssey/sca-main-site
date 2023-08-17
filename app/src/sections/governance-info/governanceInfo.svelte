@@ -86,7 +86,7 @@
             <div>
                 <h2 class="mb-3">
                     <b
-                        >Subject: SCA Establishing a Private School
+                        >SCA Establishing a Private School
                         Governance Body and Parental Committee</b
                     >
                 </h2>

@@ -15,11 +15,11 @@
                     <p class="mb-4">
                         is not an Accelerated Christian Education (ACE) school,
                         nor are we affiliated with it. The school completely
-                        distanced itself from the ACE in 2015, mainly because of
+                        distanced itself from the ACE, mainly because of
                         its “criticism” and experiences as contained in
                         <a
                             href="https://en.wikipedia.org/wiki/Accelerated_Christian_Education#Criticism"
-                            >Accelerated Christian Education</a
+                            >Wikipedia.</a
                         >
                     </p>
                     <li class="mb-4"><b>Swakopmund Christian Academy</b></li>
@@ -38,12 +38,6 @@
                     </p>
                     <li class="mb-4"><b>Swakopmund Christian Academy</b></li>
                     <p class="mb-4">
-                        is not receiving any grants or royalties from the
-                        Namibian government whatsoever. The school is completely
-                        self-sustained and independant.
-                    </p>
-                    <li class="mb-4"><b>Swakopmund Christian Academy</b></li>
-                    <p class="mb-4">
                         is not a school for Christians only. We give access to
                         any learner from any religion or faith or none. And, we
                         do not discriminate on the basis of gender, race, color,
@@ -54,19 +48,6 @@
                         is not receiving any grants or royalties from the
                         Namibian government whatsoever. The school is completely
                         self-sustained and independant.
-                    </p>
-                    <li class="mb-4"><b>Swakopmund Christian Academy</b></li>
-                    <p class="mb-4">
-                        is not receiving any grants or royalties from the
-                        Namibian government whatsoever. The school is completely
-                        self-sustained and independant.
-                    </p>
-                    <li class="mb-4"><b>Swakopmund Christian Academy</b></li>
-                    <p class="mb-4">
-                        is not a school for Christians only. We give access to
-                        any learner from any religion or faith or none. And, we
-                        do not discriminate on the basis of gender, race, color,
-                        ethnic origin, creed, social or economic status.
                     </p>
                 </ol>
             </div>
