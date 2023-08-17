@@ -7,6 +7,7 @@
   import Services from "../sections/services/services.svelte";
   import Team from "../sections/team/team.svelte";
   import Carousel from "svelte-carousel";
+    import WhatWeAreNot from "../sections/what-we-are-not/whatWeAreNot.svelte";
 
   let carousel; // for calling methods of the carousel instance
 
@@ -133,6 +134,7 @@
 
 <Services />
 <About />
+<WhatWeAreNot />
 <Categories />
 <Courses />
 <Fees />
