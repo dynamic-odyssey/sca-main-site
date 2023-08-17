@@ -141,6 +141,13 @@
                         <p class="mb-3">
                             To ensure that teachers are well-versed in the latest educational technologies and methodologies, SCA invests in regular professional development workshops and training programs. This ensures that educators remain adept at using technology to enhance the learning experience and stay abreast of current pedagogical trends.
                         </p>
+                        <div class="m-1 rounded">
+                            <img
+                                class="img-fluid"
+                                src="img/Robotics.png"
+                                alt=""
+                            />
+                        </div>
                     </div>
                 </div>
                 <h5 class="mb-3"><b> Conclusion: </b></h5>

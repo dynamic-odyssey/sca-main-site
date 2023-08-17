@@ -11,7 +11,7 @@
                 </h6>
                 <h1 class="mb-4">Our Approach to Quality Education</h1>
                 <p class="mb-4">
-                    Our motto is "Elimu ni Ushidi kwa Afrika", a Lozy (Swahili, African) saying which translates "Education is
+                    "Elimu ni Ushidi kwa Afrika", a (Swahili, African) saying which translates "Education is
                     victory for Africa": We have developed an Inclusive
                     Integration of African Heritage in our Education system.
                 </p>
