@@ -108,7 +108,7 @@
         <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
           <div class="service-item text-center pt-3">
             <div class="p-4">
-              <i class="fa fa-3x fa-cross text-primary mb-4" />
+              <i class="fa fa-3x fa-globe text-primary mb-4" />
               <h5 class="mb-3">Core Values</h5>
               <p>
                 Swakopmund Christian Academy champions African heritage with a global outlook. Our motto is "Education is Victory for Africa." We utilize hybrid learning, blending in-person and digital instruction, ensuring flexibility, personalization, engagement, and adaptability for a well-rounded education.
