@@ -78,7 +78,7 @@
                 <div class="position-relative h-100">
                     <img
                         class="img-fluid position-absolute w-100 h-100"
-                        src="img/about/what-we-are-not.jpg"
+                        src="img/about/WhatWe.png"
                         alt=""
                         style="height: auto; max-width: 100%"
                     />

@@ -78,7 +78,7 @@
             <div class="m-1 rounded">
                 <img
                     class="img-fluid"
-                    src="img/GovernancePhoto.png"
+                    src="img/Chairman.png"
                     alt=""
                 />
             </div>
@@ -281,10 +281,17 @@
                         <p class="mb-3">
                             We invite enthusiastic and dedicated parents from each grade to volunteer as parent representatives for the Parental Committee. Parent representatives will play a vital role in gathering input from their grade's parents, attending association meetings, and contributing to the decision-making process.
                         </p>
+                        <div class="m-1 rounded">
+                            <img
+                                class="img-fluid"
+                                src="img/GovernanceUpdated.png"
+                                alt=""
+                            />
+                        </div>
                     </div>
                 </div>
             </div>
-
+            
             <div>
                 <h4>Conclusion:</h4>
                 <p class="mb-3">

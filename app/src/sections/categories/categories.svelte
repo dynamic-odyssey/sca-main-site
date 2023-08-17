@@ -16,7 +16,7 @@
           <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
             <a
               class="position-relative d-block overflow-hidden"
-              href="https://its.elearning-swakopca.edu.na/register"
+              href="https://online.elearning-swakopca.edu.na"
             >
               <img class="img-fluid" src="img/Mathematics.jpg" alt="" />
               <div
@@ -31,7 +31,7 @@
           <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
             <a
               class="position-relative d-block overflow-hidden"
-              href="https://its.elearning-swakopca.edu.na/register"
+              href="https://online.elearning-swakopca.edu.na"
             >
               <img class="img-fluid" src="img/Science.jpg" alt="" />
               <div
@@ -46,7 +46,7 @@
           <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
             <a
               class="position-relative d-block overflow-hidden"
-              href="https://its.elearning-swakopca.edu.na/register"
+              href="https://online.elearning-swakopca.edu.na"
             >
               <img class="img-fluid" src="img/Social Studies.jpg" alt="" />
               <div
@@ -67,7 +67,7 @@
       >
         <a
           class="position-relative d-block h-100 overflow-hidden"
-          href="https://its.elearning-swakopca.edu.na/register"
+          href="https://online.elearning-swakopca.edu.na"
         >
           <img
             class="img-fluid position-absolute w-100 h-100"
@@ -84,6 +84,12 @@
           </div>
         </a>
       </div>
+    </div>
+    <div>
+      <a
+          class="btn btn-warning py-3 px-5 mt-2 me-3"
+          href="https://online.elearning-swakopca.edu.na">Curriculum</a
+        >
     </div>
   </div>
 </div>

@@ -78,7 +78,7 @@
             <div class="m-1 rounded">
                 <img
                     class="img-fluid"
-                    src="img/Education.png"
+                    src="img/CoursesInfo.png"
                     alt=""
                 />
             </div>
@@ -234,10 +234,25 @@
                 <p class="mb-3">
                     If you are a parent or student attending Swakopmund Christian Academy, this development could mean an enhanced learning experience in social studies and a more comprehensive educational journey. It's always beneficial for schools to stay current with educational standards and best practices, and integrating NCSS is a step in the right direction. 
                 </p>
+                <p class="mb-3">
+                    Our Additional Subjects Include: Art, Music, Physical Education
+                </p>
             </div>
-
-           Our Additional Subjects Include: Art, Music, Physical Education
         </div>
+
+    <div>
+        <h4>SCA E-Learning</h4>
+        <p class="mb-3">
+            Please visit our <strong>E-Learning Website</strong> using the button below for more information on our Courses and Curriculum.
+        </p>
+        </div>
+
+        <div>
+            <a
+                class="btn btn-warning py-3 px-5 mt-2 me-3"
+                href="https://online.elearning-swakopca.edu.na">Curriculum</a
+              >
+          </div>
     </div>
 </div>
 
