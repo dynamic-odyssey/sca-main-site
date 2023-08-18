@@ -78,7 +78,7 @@
             <div class="m-1 rounded">
                 <img
                     class="img-fluid"
-                    src="img/Chairman.png"
+                    src="img/Custodian.png"
                     alt=""
                 />
             </div>
@@ -284,7 +284,7 @@
                         <div class="m-1 rounded">
                             <img
                                 class="img-fluid"
-                                src="img/GovernanceUpdated.png"
+                                src="img/Leadership.png"
                                 alt=""
                             />
                         </div>

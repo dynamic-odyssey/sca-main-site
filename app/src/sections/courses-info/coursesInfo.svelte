@@ -156,7 +156,7 @@
                 </p>
 
                 <h3 class="my-5">
-                    Promotional Courses
+                    Alignment of Promotional Courses
                 </h3>
 
                 <div class="row mt-1">
