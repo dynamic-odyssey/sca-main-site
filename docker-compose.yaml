@@ -1,31 +1,15 @@
 version: '3'
 
 services:
-  sca_app:
+  pb:
     build:
       context: .
-      dockerfile: app.Dockerfile
-    environment:
-      - HOST=0.0.0.0
-    ports:
-      - "5173:5173"
-    volumes:
-      - ./app:/app
-      - ./.vscode-server-app:/root/.vscode-server
-      - ./pb_public:/app/dist
-
-  sca_pb-dev:
-    build:
-      context: .
-      dockerfile: pb-dev.Dockerfile
+      dockerfile: pb.Dockerfile
     ports:
       - "8091:8090"
     volumes:
-      - ./.vscode-server-pb:/root/.vscode-server
-      - ./.go:/go
-      - ./pb:/pb-dev
       - ./pb_migrations:/pocketbase/pb_migrations
-      - ./pb_public:/pocketbase/pb_public
+      - ./app:/pocketbase/pb_public
       - sca_main_pb_data:/pocketbase/pb_data
 
 volumes:
