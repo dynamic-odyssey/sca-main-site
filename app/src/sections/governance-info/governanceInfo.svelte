@@ -97,7 +97,7 @@
                     governance structure will promote transparency, efficiency,
                     and the welfare of the school, ensuring it thrives as an
                     institution of academic excellence and holistic development.
-                    Our proposed governance model includes the following key
+                    Our governance model includes the following key
                     components:
                 </p>
 
