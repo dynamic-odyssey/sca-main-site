@@ -97,7 +97,7 @@
           </div>
           <div class="d-flex border-top">
             <small class="flex-fill text-center border-end py-2"
-              ><i class=" text-primary me-2" />Raspberry Pi</small
+              ><i class=" text-primary me-2" />Coding Club</small
             >
             <small class="flex-fill text-center border-end py-2"
               ><i class="fa fa-clock text-primary me-2" />K-12</small
