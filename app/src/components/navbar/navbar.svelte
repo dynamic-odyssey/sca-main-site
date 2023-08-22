@@ -17,7 +17,7 @@
         class="me-3 nav-brand-image"
       />
       <span class="nav-title-full">Swakopmund Christian Academy</span>
-      <span class="nav-title-short">Swakop CA</span>
+      <span class="nav-title-short">Swakopmund Christian Academy</span>
     </h2>
   </a>
   <button
