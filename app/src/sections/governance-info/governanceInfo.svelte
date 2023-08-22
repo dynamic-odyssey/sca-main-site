@@ -78,7 +78,7 @@
             <div class="m-1 rounded">
                 <img
                     class="img-fluid"
-                    src="img/Custodian.png"
+                    src="img/CustodianUp.png"
                     alt=""
                 />
             </div>
@@ -97,7 +97,7 @@
                     governance structure will promote transparency, efficiency,
                     and the welfare of the school, ensuring it thrives as an
                     institution of academic excellence and holistic development.
-                    Our proposed governance model includes the following key
+                    Our envisaged governance model includes the following key
                     components:
                 </p>
 
@@ -209,7 +209,7 @@
                 </p>
 
                 <h3 class="my-5">
-                    Introducing the Parental Committee - Parent
+                    Introducing the Parental Committee - Request for Parent
                     Representatives from Each Grade
                 </h3>
 
@@ -293,7 +293,7 @@
             </div>
             
             <div>
-                <h4>Conclusion:</h4>
+                <h4>Motivation:</h4>
                 <p class="mb-3">
                     We believe that the Parental Committee will be a valuable
                     addition to our school community, fostering a strong and
@@ -314,7 +314,7 @@
     </div>
 
     <div class="container my-5">
-        <h2 class="pb-3">Join the Parent Committee Now!</h2>
+        <h2 class="pb-3">Kindly Join Our Parent Committee Now!</h2>
         <form class="w-75" on:submit={(e) => joinParentCommittee(e)}>
             <div class="row g-3">
                 <div class="col-md-6">
