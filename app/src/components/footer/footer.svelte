@@ -61,16 +61,16 @@
           <i class="fa fa-envelope me-3" />school.office@swakopca.com
         </p>
         <div class="d-flex pt-2">
-          <a class="btn btn-outline-light btn-social" href=""
-            ><i class="fab fa-twitter" /></a
+          <a class="btn btn-outline-light btn-social" href="https://instagram.com/swakopca?igshid=MmIzYWVlNDQ5Yg=="
+            ><i class="fab fa-instagram" /></a
           >
-          <a class="btn btn-outline-light btn-social" href=""
+          <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/EDUCATION.LIBERATE.NAMIBIA?mibextid=LQQJ4d"
             ><i class="fab fa-facebook-f" /></a
           >
-          <a class="btn btn-outline-light btn-social" href=""
+          <a class="btn btn-outline-light btn-social" href="https://youtube.com/@swakopmundchristianacademy2953"
             ><i class="fab fa-youtube" /></a
           >
-          <a class="btn btn-outline-light btn-social" href=""
+          <a class="btn btn-outline-light btn-social" href="https://www.linkedin.com/company/swakopmund-christian-academy/"
             ><i class="fab fa-linkedin-in" /></a
           >
         </div>
