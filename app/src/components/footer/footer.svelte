@@ -155,7 +155,7 @@
           >, All Right Reserved.
           <br />
           Made By
-          <a class="border-bottom" href="https://dynamic-odyssey-trading.com"
+          <a class="border-bottom" href="https://dynamic-odyssey.com"
             >Dynamic Odyssey trading cc</a
           >
         </div>
