@@ -10,44 +10,28 @@
                     Perception
                 </h6>
                 <h1 class="mb-4">What We Are Not</h1>
+                <p class="mb-4">
+                    <strong>Swakopmund Christian Academy wants to clarify several important points to dispel any misconceptions:</strong>
+                </p>
                 <ol>
-                    <li class="mb-4"><b>Swakopmund Christian Academy</b></li>
                     <p class="mb-4">
-                        is not an Accelerated Christian Education (ACE) school,
-                        nor are we affiliated with it. The school completely
-                        distanced itself from the ACE, mainly because of
-                        its “criticism” and experiences as contained in
+                        1. <strong>Not an ACE School:</strong> We are not an Accelerated Christian Education (ACE) school, nor do we have any affiliation with ACE. Our decision to distance ourselves from ACE is rooted in our concerns, which are also detailed in the
                         <a
                             href="https://en.wikipedia.org/wiki/Accelerated_Christian_Education#Criticism"
-                            >Wikipedia.</a
-                        >
+                            >Wikipedia Article</a
+                        >.
                     </p>
-                    <li class="mb-4"><b>Swakopmund Christian Academy</b></li>
                     <p class="mb-4">
-                        is not a church nor is it affiliated with any church
-                        and/or denomination.
+                        2. <strong>Not Affiliated with a Church:</strong> Swakopmund Christian Academy is not associated with any church or denomination. We are an independent educational institution.
                     </p>
-                    <li class="mb-4"><b>Swakopmund Christian Academy</b></li>
                     <p class="mb-4">
-                        is not a government or public school. Swakopmund
-                        Christian Academy was established in 1987 and registered
-                        as an independent and/or private school in 1988. Thus,
-                        Swakopmund Christian Academy is not a fly-by-night
-                        school, as it has been rigorously tested and contested,
-                        nevertheless SCA stands victorious.
+                        3. <strong>Not a Government or Public School:</strong> Established in 1987 and officially registered as an independent/private school in 1988, we are not a government or public school. Our long-standing presence and rigorous testing have solidified our status.
                     </p>
-                    <li class="mb-4"><b>Swakopmund Christian Academy</b></li>
                     <p class="mb-4">
-                        is not a school for Christians only. We give access to
-                        any learner from any religion or faith or none. And, we
-                        do not discriminate on the basis of gender, race, color,
-                        ethnic origin, creed, social or economic status.
+                        4. <strong>Open to All:</strong> We welcome students from all backgrounds, regardless of their religious beliefs or lack thereof. We do not discriminate based on gender, race, color, ethnic origin, creed, or social and economic status.
                     </p>
-                    <li class="mb-4"><b>Swakopmund Christian Academy</b></li>
                     <p class="mb-4">
-                        is not receiving any grants or royalties from the
-                        Namibian government whatsoever. The school is completely
-                        self-sustained and independant.
+                        5. <strong>Self-Sustained and Independent:</strong> Swakopmund Christian Academy does not receive any grants or royalties from the Namibian government. We are entirely self-sustained and independent in our operations.
                     </p>
                 </ol>
             </div>
