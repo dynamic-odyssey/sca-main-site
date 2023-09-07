@@ -83,8 +83,8 @@
               <i class="fa fa-3x fa-eye text-primary mb-4" />
               <h5 class="mb-3">Vision</h5>
               <p>
-                Train up a child in the way he should go and when he is old he
-                will not depart from it. (Proverbs 22: 6) We empower our
+                1. Train up a child in the way he should go and when he is old he
+                will not depart from it. (Proverbs 22: 6). 2. We empower our
                 students with everything necessary and inspire one another to
                 take thoughtful action.
               </p>
