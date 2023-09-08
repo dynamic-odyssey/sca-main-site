@@ -13,7 +13,7 @@
         <div class="position-relative h-100">
           <img
             class="img-fluid position-absolute w-100 h-100"
-            src="img/TutoTula.png"
+            src="img/Elimu ni.png"
             alt=""
             style="object-fit: cover;"
           />
