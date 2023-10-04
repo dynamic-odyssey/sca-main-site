@@ -38,7 +38,7 @@
       <a href="/courses" use:link use:active class="nav-item nav-link"
         >Courses</a
       >
-      <a href="/fees" use:link use:active class="nav-item nav-link">Fees</a>
+      <a href="/fees" use:link use:active class="nav-item nav-link">Info</a>
       <a href="/contact" use:link use:active class="nav-item nav-link active"
         >Contact</a
       >
