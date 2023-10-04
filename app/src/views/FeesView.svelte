@@ -1,6 +1,7 @@
 <script lang="ts">
     import { link } from "svelte-spa-router";
     import Fees from "../sections/fees/fees.svelte";
+    import Calendar from "../sections/calendar/calendar.svelte";
 </script>
 
 <div class="container-fluid bg-primary py-5 mb-5 page-header">
@@ -8,7 +9,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-10 text-center">
                 <h1 class="display-3 text-white animated slideInDown">
-                    Our Fees
+                    Information
                 </h1>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb justify-content-center">
@@ -19,7 +20,7 @@
                             class="breadcrumb-item text-white active"
                             aria-current="page"
                         >
-                            Fees
+                            Info
                         </li>
                     </ol>
                 </nav>
@@ -29,6 +30,7 @@
 </div>
 
 <Fees />
+<Calendar />
 
 <style>
     .container-fluid.bg-primary.py-5.mb-5.page-header {

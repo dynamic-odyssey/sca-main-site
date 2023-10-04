@@ -10,7 +10,7 @@
                     Philosophy & Ideology
                 </h6>
                 <h1 class="mb-4">Our Approach to Quality Education</h1>
-                <p class="mb-4">
+                <!--<p class="mb-4">
                     "Elimu ni Ushidi kwa Afrika", a (Swahili, African) saying which translates "Education is
                     victory for Africa": We have developed an Inclusive
                     Integration of African Heritage in our Education system.
@@ -22,6 +22,7 @@
                     a global perspective. Our Philosophy, Elimu ni Ushidi kwa Africa, meaning "Education is Victory for Africa" in the local
                     language, is built upon the following core principles:
                 </p>
+            -->
                 <p class="mb-4">
                     1. In-Person Instruction: The school continues to offer
                     traditional in-person classroom teaching, where students
