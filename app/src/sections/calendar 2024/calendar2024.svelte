@@ -13,7 +13,7 @@
         <div class="position-relative h-100">
           <img
             class="img-fluid position-absolute w-100 h-100"
-            src="img/Calendar.jpg"
+            src="img/Calendar2024.png"
             alt=""
             style="object-fit: contain;"
           />
@@ -21,14 +21,17 @@
       </div>
       <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
         <h6 class="section-title bg-white text-start text-primary pe-3">
-          2023 School Calendar
+          2024 School Calendar
         </h6>
         <h1 class="mb-4">Get Ready for an Exciting Academic Journey!</h1>
         <p class="mb-4">
-          Plan ahead with our 2023 School Calendar. It outlines the school's opening and closing dates, as well as the schedule for public holidays. Stay in the know and be prepared for the year ahead.
+          Welcome to the 2024 academic year! Our School Calendar is your roadmap, detailing the opening and closing dates, alongside the observance of public holidays. Stay ahead and mark your dates for a productive and enriching year.
         </p>
         <p class="mb-4">
-          For more details or questions, contact our administrative team. Thank you for choosing us for your education.
+          Right-click on the Calendar and select 'Save Image' to download, or simply zoom in on the page to view the Calendar image directly.
+        </p>
+        <p class="mb-4">
+          For additional information or any inquiries, our administrative team is here to assist. We appreciate your choice in entrusting us with your education and look forward to a stimulating and successful year ahead!
         </p>
         <a
           class="btn btn-warning py-3 px-5 mt-2 me-3"
