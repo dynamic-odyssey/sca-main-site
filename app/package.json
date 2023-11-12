@@ -19,7 +19,7 @@
     "vite": "^4.3.2"
   },
   "dependencies": {
-    "pocketbase": "^0.15.0",
+    "pocketbase": "^0.15.3",
     "svelte-carousel": "^1.0.25",
     "svelte-spa-router": "^3.3.0"
   }
