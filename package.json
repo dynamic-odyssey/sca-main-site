@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2.5.2",
+    "svelte-spa-router": "^3.3.0"
+  }
+}
