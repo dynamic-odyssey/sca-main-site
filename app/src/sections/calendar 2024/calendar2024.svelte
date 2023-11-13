@@ -25,13 +25,20 @@
         </h6>
         <h1 class="mb-4">Get Ready for an Exciting Academic Journey!</h1>
         <p class="mb-4">
-          Welcome to the 2024 academic year! Our School Calendar is your roadmap, detailing the opening and closing dates, alongside the observance of public holidays. Stay ahead and mark your dates for a productive and enriching year.
+          Welcome to the 2024 academic year! Our School Calendar is your
+          roadmap, detailing the opening and closing dates, alongside the
+          observance of public holidays. Stay ahead and mark your dates for a
+          productive and enriching year.
         </p>
         <p class="mb-4">
-          Right-click on the Calendar and select 'Save Image' to download, or simply zoom in on the page to view the Calendar image directly.
+          Right-click on the Calendar and select 'Save Image' to download, or
+          simply zoom in on the page to view the Calendar image directly.
         </p>
         <p class="mb-4">
-          For additional information or any inquiries, our administrative team is here to assist. We appreciate your choice in entrusting us with your education and look forward to a stimulating and successful year ahead!
+          For additional information or any inquiries, our administrative team
+          is here to assist. We appreciate your choice in entrusting us with
+          your education and look forward to a stimulating and successful year
+          ahead!
         </p>
         <a
           class="btn btn-warning py-3 px-5 mt-2 me-3"
