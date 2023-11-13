@@ -3,6 +3,8 @@
     import Fees from "../sections/fees/fees.svelte";
     import Calendar from "../sections/calendar/calendar.svelte";
     import Calendar2024 from "../sections/calendar 2024/calendar2024.svelte";
+    import MemoryBanner from "../sections/banners/memoryBanner.svelte";
+    import PrizeGivingBanner from "../sections/banners/prizeGivingBanner.svelte";
 </script>
 
 <div class="container-fluid bg-primary py-5 mb-5 page-header">
@@ -30,6 +32,8 @@
     </div>
 </div>
 
+<MemoryBanner />
+<PrizeGivingBanner />
 <Fees />
 <Calendar />
 <Calendar2024 />
