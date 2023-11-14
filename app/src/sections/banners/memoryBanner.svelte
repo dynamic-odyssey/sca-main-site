@@ -21,20 +21,20 @@
         <h6 class="section-title bg-white text-start text-primary pe-3">
           In Loving Memory
         </h6>
-        <h1 class="mb-4">Ms. Simpson, Our Beloved Grade 1 Teacher</h1>
+        <h1 class="mb-4">Ms. Simpson, Our Beloved Teacher</h1>
         <p class="mb-4">
-          Ms. Simpson left an indelible mark on our hearts and the school
-          community. In tribute to Ms. Simpson's legacy, we invite you to join
-          us in supporting her family during this time. Your contributions
-          affirm the collective spirit and care that she embodied as our Grade 1
-          teacher. Let us honor her memory with generosity and kindness.
+          We deeply mourn the loss of Ms. Simpson, a cherished member of our
+          school community. Her dedication to teaching and the profound impact
+          she had on our lives will always be remembered. Ms. Simpson's kindness
+          and inspiring spirit touched us all, leaving a lasting legacy that
+          continues to guide us. Our school extends heartfelt sympathies to her
+          family, honoring the remarkable contributions she made to our lives.
+          She will be greatly missed but never forgotten.
         </p>
         <p class="mb-4">
           We thank you for your support and compassion. Please contact our
           administrative team for any additional information or inquiries.
         </p>
-        <p class="mb-4">E-Wallets: +264 81 827 7935 / 081 259 9878</p>
-        <p class="banner-amount">Contributions Collected: <span>N$200</span></p>
         <!-- Add call-to-action if needed -->
       </div>
     </div>
