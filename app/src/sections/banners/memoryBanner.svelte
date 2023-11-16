@@ -32,6 +32,10 @@
           She will be greatly missed but never forgotten.
         </p>
         <p class="mb-4">
+          Ms. Simpson's funeral is on Saturday, November 18, 2023 @ 09H00, at
+          the Vrye Pinkster, Huis van Brood, Naraville, Walvis Bay.
+        </p>
+        <p class="mb-4">
           We thank you for your support and compassion. Please contact our
           administrative team for any additional information or inquiries.
         </p>

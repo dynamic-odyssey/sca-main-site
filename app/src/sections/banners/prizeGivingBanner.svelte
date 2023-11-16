@@ -31,7 +31,10 @@
           towards. Our Prize Giving event is a proud reflection of our students'
           commitment to learning and growth.
         </p>
-        <p class="banner-amount">Join us on 24 November 2023</p>
+        <p class="banner-amount">
+          Join us on 24 November 2023 at 6pm, at the Swakopmund Multi-Prupose
+          Hall, Mondesa
+        </p>
         <!-- Add call-to-action if needed -->
       </div>
     </div>
