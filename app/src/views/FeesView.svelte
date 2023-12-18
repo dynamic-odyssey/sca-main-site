@@ -33,7 +33,6 @@
 </div>
 
 <MemoryBanner />
-<PrizeGivingBanner />
 <Fees />
 <Calendar />
 <Calendar2024 />
