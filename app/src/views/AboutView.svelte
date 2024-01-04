@@ -6,6 +6,7 @@
   import Fees from "../sections/fees/fees.svelte";
   import Philosophy from "../sections/philosophy/philosophy.svelte";
   import WhatWeAreNot from "../sections/what-we-are-not/whatWeAreNot.svelte";
+    import About from "../sections/about/about.svelte";
 </script>
 
 <div class="container-fluid bg-primary py-5 mb-5 page-header">
@@ -28,21 +29,31 @@
   </div>
 </div>
 
-<Services vmf={true} />
-<WhyUs />
-<Philosophy />
-<WhatWeAreNot />
-<Team showAll={true} />
+<div id="services-section">
+  <Services vmf={true} />
+</div>
+<div id="why-us-section">
+  <WhyUs />
+</div>
+<div id="philosophy-section">
+  <Philosophy />
+</div>
+<div id="what-we-are-not-section">
+  <WhatWeAreNot />
+</div>
+<div id="team-section">
+  <Team showAll={true} />
+</div>
 
 <style>
   .container-fluid.bg-primary.py-5.mb-5.page-header {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/About_Us_2.png) no-repeat center center;
     background-size: cover;
-}
-.container-fluid.bg-primary.py-5.mb-5.page-header::before {
+  }
+  .container-fluid.bg-primary.py-5.mb-5.page-header::before {
     content: "";
     background: inherit;
     filter: blur(5px);  /* Blurs the background image */
     z-index: -1;
-}
+  }
 </style>
