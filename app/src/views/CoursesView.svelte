@@ -29,7 +29,6 @@
 <Categories />
 <CoursesInfo />
 <Courses />
-<Fees />
 
 <style>
   .container-fluid.bg-primary.py-5.mb-5.page-header {

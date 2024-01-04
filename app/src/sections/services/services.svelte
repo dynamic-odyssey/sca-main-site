@@ -5,6 +5,7 @@
 </script>
 
 {#if !vmf}
+  <div id="services-section" class="container-xxl py-5"></div>
   <div class="container-xxl py-5">
     <div class="container">
       <div class="row g-4">
@@ -74,7 +75,7 @@
     </div>
   </div>
 {:else}
-  <div class="container-xxl py-5">
+  <div id="vision-section" class="container-xxl py-5">
     <div class="container">
       <div class="row g-4 justify-content-center">
         <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
