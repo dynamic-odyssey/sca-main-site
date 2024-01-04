@@ -119,9 +119,42 @@
       </div>
 
       <!-- Governance Menu Item (No Dropdown) -->
-      <div class="nav-item">
-        <a href="/governance" use:link use:active class="nav-link">Governance</a
+      <div class="nav-item dropdown">
+        <a
+          class="nav-link dropdown-toggle"
+          href="/governance"
+          role="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+          use:link
+          use:active>Governance</a
         >
+        <ul class="dropdown-menu">
+          <li>
+            <a
+              class="dropdown-item"
+              href="javascript:void(0);"
+              on:click={() => scrollToSection("governance-section")}
+              >Governance Body</a
+            >
+          </li>
+          <li>
+            <a
+              class="dropdown-item"
+              href="javascript:void(0);"
+              on:click={() => scrollToSection("parent-committee-section")}
+              >Parent Committee</a
+            >
+          </li>
+          <li>
+            <a
+              class="dropdown-item"
+              href="javascript:void(0);"
+              on:click={() => scrollToSection("join-committee-section")}
+              >Join Parent Committee</a
+            >
+          </li>
+        </ul>
       </div>
 
       <!-- Courses Dropdown Menu -->
