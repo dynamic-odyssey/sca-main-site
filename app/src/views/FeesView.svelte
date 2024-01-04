@@ -32,9 +32,7 @@
     </div>
 </div>
 
-<MemoryBanner />
 <Fees />
-<Calendar />
 <Calendar2024 />
 
 <style>

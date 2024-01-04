@@ -2,7 +2,7 @@
   import { link } from "svelte-spa-router";
 </script>
 
-<div class="container-xxl py-5 category">
+<div id="categories-section" class="container-xxl py-5 category">
   <div class="container">
     <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
       <h6 class="section-title bg-white text-center text-primary px-3">
