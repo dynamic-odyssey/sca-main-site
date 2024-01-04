@@ -2,7 +2,7 @@
   import { link } from "svelte-spa-router";
   import active from "svelte-spa-router/active";
 
-  const scrollToSection = (sectionId) => {
+  const scrollToSection = (sectionId: string) => {
     const section = document.getElementById(sectionId);
     if (section) {
       section.scrollIntoView({ behavior: "smooth" });
@@ -186,6 +186,22 @@
               href="javascript:void(0);"
               on:click={() => scrollToSection("calendar-section")}
               >Academic Calendar</a
+            >
+          </li>
+          <li>
+            <a
+              class="dropdown-item"
+              href="javascript:void(0);"
+              on:click={() => scrollToSection("stationery-lists-section")}
+              >Stationery Lists</a
+            >
+          </li>
+          <li>
+            <a
+              class="dropdown-item"
+              href="javascript:void(0);"
+              on:click={() => scrollToSection("books-lists-section")}
+              >Books Lists</a
             >
           </li>
         </ul>
