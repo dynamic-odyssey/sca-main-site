@@ -7,6 +7,7 @@
     import PrizeGivingBanner from "../sections/banners/prizeGivingBanner.svelte";
     import Stationery from "../sections/stationery/stationery.svelte";
     import Books from "../sections/books/books.svelte";
+    import Technology from "../sections/technology/technology.svelte";
 </script>
 
 <div class="container-fluid bg-primary py-5 mb-5 page-header">
@@ -36,6 +37,7 @@
 
 <Fees />
 <Calendar2024 />
+<Technology />
 <Stationery />
 <Books />
 
