@@ -21,7 +21,7 @@
       </div>
       <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
         <h6 class="section-title bg-white text-start text-primary pe-3">
-          Our Fees
+          Our Fees for 2024
         </h6>
         <h1 class="mb-4">Quality Affordable Education For All</h1>
         <p class="mb-4">
