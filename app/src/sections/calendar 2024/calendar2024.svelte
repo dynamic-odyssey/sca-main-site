@@ -1,5 +1,39 @@
 <script lang="ts">
   import { link } from "svelte-spa-router";
+  import { fade, slide } from "svelte/transition";
+
+  let images = [
+    "/img/2024 Calendar/Cover.png", // Replace with your actual image paths
+    "/img/2024 Calendar/January.png",
+    "/img/2024 Calendar/February.png",
+    "/img/2024 Calendar/March.png",
+    "/img/2024 Calendar/April.png",
+    "/img/2024 Calendar/May.png",
+    "/img/2024 Calendar/June.png",
+    "/img/2024 Calendar/July.png",
+    "/img/2024 Calendar/August.png",
+    "/img/2024 Calendar/September.png",
+    "/img/2024 Calendar/October.png",
+    "/img/2024 Calendar/November.png",
+    "/img/2024 Calendar/December.png",
+  ];
+  let currentSlide = 0;
+  let transition = slide;
+
+  function nextSlide() {
+    currentSlide = (currentSlide + 1) % images.length;
+    changeTransition();
+  }
+
+  function previousSlide() {
+    currentSlide = (currentSlide + images.length - 1) % images.length;
+    changeTransition();
+  }
+
+  function changeTransition() {
+    const transitions = [fade, slide]; // Add more transitions if needed
+    transition = transitions[Math.floor(Math.random() * transitions.length)];
+  }
 </script>
 
 <div id="calendar-section" class="container-xxl py-5">
@@ -10,13 +44,21 @@
         data-wow-delay="0.1s"
         style="min-height: 400px;"
       >
-        <div class="position-relative h-100">
-          <img
-            class="img-fluid position-absolute w-100 h-100"
-            src="img/SCA 2024 Calendar.png"
-            alt=""
-            style="object-fit: contain;"
-          />
+        <div class="slideshow-container">
+          {#each images as image, index}
+            {#if index === currentSlide}
+              <img
+                src={image}
+                alt={`Slide ${index + 1}`}
+                class="slide"
+                in:transition={{ duration: 500 }}
+              />
+            {/if}
+          {/each}
+          <div class="button-container">
+            <button on:click={previousSlide}>Previous</button>
+            <button on:click={nextSlide}>Next</button>
+          </div>
         </div>
       </div>
       <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
@@ -29,16 +71,6 @@
           roadmap, detailing the opening and closing dates, alongside the
           observance of public holidays. Stay ahead and mark your dates for a
           productive and enriching year.
-        </p>
-        <p class="mb-4">
-          Right-click on the Calendar and select 'Save Image' to download, or
-          simply zoom in on the page to view the Calendar image directly.
-        </p>
-        <p class="mb-4">
-          For additional information or any inquiries, our administrative team
-          is here to assist. We appreciate your choice in entrusting us with
-          your education and look forward to a stimulating and successful year
-          ahead!
         </p>
         <a
           class="btn btn-warning py-3 px-5 mt-2 me-3"
@@ -53,4 +85,30 @@
 </div>
 
 <style>
+  .slideshow-container {
+    position: relative;
+    max-width: 100%;
+    height: 400px;
+    margin: auto;
+    overflow: hidden;
+  }
+  .slide {
+    width: 100%;
+    height: 100%;
+  }
+  .button-container {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+  }
+  button {
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 2;
+  }
 </style>
