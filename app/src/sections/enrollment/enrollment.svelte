@@ -40,10 +40,7 @@
         </p>
         <p class="mb-4">
           Don’t miss out on the opportunity to join our diverse and inclusive
-          community. For more details about specific grade requirements,
-          documentation, and other procedures, please refer to our detailed <a
-            href="#enrollmentDetails">Enrollment Policy</a
-          >.
+          community.
         </p>
         <p class="mb-4">
           For any questions or further assistance, our admissions team is eager
