@@ -5,7 +5,7 @@
 <div id="books-lists-section" class="container-xxl py-5">
   <div class="container">
     <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-      <h6 class="section-title bg-white text-center text-primary px-3">Your Needs</h6>
+      <h6 class="section-title bg-white text-center text-primary px-3">Your 2024 Needs</h6>
       <h1 class="mb-5">Required Books Lists</h1>
       <p class="text-center text-muted mb-4">Disclaimer: This book list is subject to change. If you wish to view the list in full view, right click on the image and save or copy the image.</p>
     </div>
