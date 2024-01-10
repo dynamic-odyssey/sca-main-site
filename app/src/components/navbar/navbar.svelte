@@ -217,6 +217,14 @@
             <a
               class="dropdown-item"
               href="javascript:void(0);"
+              on:click={() => scrollToSection("enrollment-section")}
+              >Enrollment/ Registration</a
+            >
+          </li>
+          <li>
+            <a
+              class="dropdown-item"
+              href="javascript:void(0);"
               on:click={() => scrollToSection("calendar-section")}
               >Academic Calendar</a
             >
@@ -227,6 +235,14 @@
               href="javascript:void(0);"
               on:click={() => scrollToSection("technology-section")}
               >Technology Requirements</a
+            >
+          </li>
+          <li>
+            <a
+              class="dropdown-item"
+              href="javascript:void(0);"
+              on:click={() => scrollToSection("uniform-section")}
+              >Uniform Requirements</a
             >
           </li>
           <li>
