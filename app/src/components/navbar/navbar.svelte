@@ -241,6 +241,14 @@
             <a
               class="dropdown-item"
               href="javascript:void(0);"
+              on:click={() => scrollToSection("uniform-section")}
+              >Uniform Requirements</a
+            >
+          </li>
+          <li>
+            <a
+              class="dropdown-item"
+              href="javascript:void(0);"
               on:click={() => scrollToSection("stationery-lists-section")}
               >Stationery Lists</a
             >
