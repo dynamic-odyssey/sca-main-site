@@ -9,6 +9,7 @@
     import Books from "../sections/books/books.svelte";
     import Technology from "../sections/technology/technology.svelte";
     import Enrollment from "../sections/enrollment/enrollment.svelte";
+    import Uniform from "../sections/uniform/uniform.svelte";
 </script>
 
 <div class="container-fluid bg-primary py-5 mb-5 page-header">
@@ -40,6 +41,7 @@
 <Enrollment />
 <Calendar2024 />
 <Technology />
+<Uniform />
 <Stationery />
 <Books />
 
