@@ -2,7 +2,7 @@
   import { link } from "svelte-spa-router";
 </script>
 
-<div id="calendar-section" class="container-xxl py-5">
+<div id="enrollment-section" class="container-xxl py-5">
   <div class="container">
     <div class="row g-5">
       <div
