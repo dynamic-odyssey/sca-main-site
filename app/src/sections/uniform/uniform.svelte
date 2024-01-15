@@ -13,7 +13,7 @@
         <div class="position-relative h-100">
           <img
             class="img-fluid position-absolute w-100 h-100"
-            src="img/School Uniform.png"
+            src="img/SCA School Uniform List.png"
             alt=""
             style="object-fit: contain;"
           />
@@ -31,10 +31,9 @@
           excellence and unity.
         </p>
         <p class="mb-4">
-          Additionally, for comfort and style, we
-          have a tracksuit available at Alleta's Uniforms (0813333671). Ensure
-          your wardrobe is ready for the upcoming academic year with these
-          essential items.
+          Additionally, for comfort and style, we have a tracksuit available at
+          Alleta's Uniforms (0813333671). Ensure your wardrobe is ready for the
+          upcoming academic year with these essential items.
         </p>
         <p class="mb-4">
           For more details or questions about the uniform, feel free to contact
