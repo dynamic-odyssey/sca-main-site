@@ -13,7 +13,7 @@
         <div class="position-relative h-100">
           <img
             class="img-fluid position-absolute w-100 h-100"
-            src="img/SCA School Uniform List.png"
+            src="img/School Uniform.png"
             alt=""
             style="object-fit: contain;"
           />
