@@ -8,7 +8,8 @@
     if (next) {
       currentImageIndex = (currentImageIndex + 1) % images.length;
     } else {
-      currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
+      currentImageIndex =
+        (currentImageIndex - 1 + images.length) % images.length;
     }
   }
 </script>
@@ -16,11 +17,26 @@
 <div id="uniform-section" class="container-xxl py-5">
   <div class="container">
     <div class="row g-5">
-      <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+      <div
+        class="col-lg-6 wow fadeInUp"
+        data-wow-delay="0.1s"
+        style="min-height: 400px;"
+      >
         <div class="position-relative h-100">
-          <img class="img-fluid position-absolute w-100 h-100" src={images[currentImageIndex]} alt="Uniform Image" style="object-fit: contain;" />
-          <button on:click={() => changeImage(false)} class="slideshow-button left">Previous</button>
-          <button on:click={() => changeImage(true)} class="slideshow-button right">Next</button>
+          <img
+            class="img-fluid position-absolute w-100 h-100"
+            src={images[currentImageIndex]}
+            alt="Uniform Image"
+            style="object-fit: contain;"
+          />
+          <button
+            on:click={() => changeImage(false)}
+            class="slideshow-button left">Previous</button
+          >
+          <button
+            on:click={() => changeImage(true)}
+            class="slideshow-button right">Next</button
+          >
         </div>
       </div>
       <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
@@ -44,8 +60,13 @@
           our administrative team. We appreciate your cooperation in maintaining
           our school's prestigious image.
         </p>
-        <a class="btn btn-warning py-3 px-5 mt-2 me-3" href="https://its.elearning-swakopca.edu.na/register">Enrol Now</a>
-        <a class="btn btn-primary py-3 px-5 mt-2" use:link href="/contact">Get In Touch</a>
+        <a
+          class="btn btn-warning py-3 px-5 mt-2 me-3"
+          href="https://its.elearning-swakopca.edu.na/register">Enrol Now</a
+        >
+        <a class="btn btn-primary py-3 px-5 mt-2" use:link href="/contact"
+          >Get In Touch</a
+        >
       </div>
     </div>
   </div>
