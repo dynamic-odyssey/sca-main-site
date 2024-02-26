@@ -1,6 +1,21 @@
 <script lang="ts">
+  import { onMount } from 'svelte';
   import { link } from "svelte-spa-router";
   import Contact from "../sections/contact/contact.svelte";
+
+  onMount(() => {
+    const script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.onload = function() {
+      window.voiceflow.chat.load({
+        verify: { projectID: '65dc271234e9116cc9b62260' },
+        url: 'https://general-runtime.voiceflow.com',
+        versionID: 'production'
+      });
+    };
+    script.src = "https://cdn.voiceflow.com/widget/bundle.mjs";
+    document.body.appendChild(script);
+  });
 </script>
 
 <div class="container-fluid bg-primary py-5 mb-5 page-header">
