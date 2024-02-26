@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { onMount } from 'svelte';
   import About from "../sections/about/about.svelte";
   import Categories from "../sections/categories/categories.svelte";
   import Courses from "../sections/courses/courses.svelte";
@@ -9,12 +10,26 @@
   import Carousel from "svelte-carousel";
     import WhatWeAreNot from "../sections/what-we-are-not/whatWeAreNot.svelte";
 
-  let carousel; // for calling methods of the carousel instance
+  let carousel: any; // for calling methods of the carousel instance
 
   const handleSlideChangeClick = (prev: boolean) => {
     if (prev) carousel.goToPrev();
     else carousel.goToNext();
   };
+
+  onMount(() => {
+    const script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.onload = function() {
+      window.voiceflow.chat.load({
+        verify: { projectID: '65dc271234e9116cc9b62260' },
+        url: 'https://general-runtime.voiceflow.com',
+        versionID: 'production'
+      });
+    };
+    script.src = "https://cdn.voiceflow.com/widget/bundle.mjs";
+    document.body.appendChild(script);
+  });
 </script>
 
 <div class="container-fluid p-0 mb-5">
