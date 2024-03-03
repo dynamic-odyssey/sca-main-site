@@ -81,13 +81,10 @@
             <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="service-item text-center pt-3">
                     <div class="p-4">
-                        <i class="fa fa-3x fa-eye text-primary mb-4"></i>
-                        <h5 class="mb-3">Vision</h5>
+                        <i class="fa fa-3x fa-rocket text-primary mb-4"></i>
+                        <h5 class="mb-3">Mission</h5>
                         <p>
-                            1. Train up a child in the way he should go and when he is old he
-                            will not depart from it. (Proverbs 22: 6). 2. We empower our
-                            students with everything necessary and inspire one another to
-                            take thoughtful action.
+                            Swakopmund Christian Academy's mission is to cultivate empathetic leaders and perpetual learners who are prepared to achieve academic excellence and contribute positively to society. We offer high-quality education in a nurturing and varied setting that promotes the overall growth of every student.
                         </p>
                     </div>
                 </div>
@@ -95,13 +92,10 @@
             <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="service-item text-center pt-3">
                     <div class="p-4">
-                        <i class="fa fa-3x fa-rocket text-primary mb-4"></i>
-                        <h5 class="mb-3">Mission</h5>
+                        <i class="fa fa-3x fa-eye text-primary mb-4"></i>
+                        <h5 class="mb-3">Vision</h5>
                         <p>
-                            Our mission is to provide excellence in education through a
-                            caring and diverse environment that encourages the holistic
-                            development of each student as part of our mandate. We prepare
-                            students with the means to succeed in a challenging world.
+                            Swakopmund Christian Academy creates a cooperative setting where students and instructors are encouraged to study, develop, and lead with intention. Educate a child according to his individual needs and values, and as he grows older, he will continue to follow that path. (Proverbs 22:6).
                         </p>
                     </div>
                 </div>
@@ -124,7 +118,7 @@
                         <i class="fa fa-3x fa-anchor text-primary mb-4"></i> <!-- Change icon as needed -->
                         <h5 class="mb-3">Core Principles</h5>
                         <p>
-                            Swakopmund Christian Academy develops leaders who are steadfast in their faith and exhibit honesty, decency, respect, excellence, compassion, innovation, and open-mindedness. These are the core principles of our institution.
+                            Swakopmund Christian Academy promotes a lively community where faith influences our quest for education. We promote African greatness, adopt a worldwide viewpoint, and empower students to lead with integrity and innovation.
                         </p>
                     </div>
                 </div>
