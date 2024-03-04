@@ -118,7 +118,7 @@
                         <i class="fa fa-3x fa-anchor text-primary mb-4"></i> <!-- Change icon as needed -->
                         <h5 class="mb-3">Core Principles</h5>
                         <p>
-                            Swakopmund Christian Academy promotes a lively community where faith influences our quest for education. We promote African greatness, adopt a worldwide viewpoint, and empower students to lead with integrity and innovation.
+                            Swakopmund Christian Academy develops leaders who are steadfast in their faith and exhibit honesty, decency, respect, excellence, compassion, innovation, and open-mindedness. These are the core principles of our institution.
                         </p>
                     </div>
                 </div>
