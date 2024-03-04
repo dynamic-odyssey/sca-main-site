@@ -106,7 +106,7 @@
                         <i class="fa fa-3x fa-globe text-primary mb-4"></i>
                         <h5 class="mb-3">Core Values</h5>
                         <p>
-                            Swakopmund Christian Academy champions African heritage with a global outlook. Our motto is "Education is Victory for Africa." We utilize hybrid learning, blending in-person and digital instruction, ensuring flexibility, personalization, engagement, and adaptability for a well-rounded education.
+                            Swakopmund Christian Academy promotes a lively community where faith influences our quest for education. We promote African greatness, adopt a worldwide viewpoint, and empower students to lead with integrity and innovation.
                         </p>
                     </div>
                 </div>
