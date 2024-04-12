@@ -38,7 +38,7 @@
     </div>
 </div>
 
-<Announcement />
+
 <Fees />
 <Enrollment />
 <Calendar2024 />
