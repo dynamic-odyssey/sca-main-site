@@ -15,23 +15,23 @@
                 </p>
                 <ol>
                     <p class="mb-4">
-                        1. <strong>Not an ACE School:</strong> We are not an Accelerated Christian Education (ACE) school, nor do we have any affiliation with ACE. Our decision to distance ourselves from ACE is rooted in our concerns, which are also detailed in the
+                        1. <strong>We are Not an ACE School or religious:</strong> We are not an Accelerated Christian Education (ACE) school, nor do we have any affiliation with ACE or any other religious educational institution. Our decision to distance ourselves from ACE is rooted in our concerns, which are also detailed in the
                         <a
                             href="https://en.wikipedia.org/wiki/Accelerated_Christian_Education#Criticism"
                             >Wikipedia Article</a
                         >.
                     </p>
                     <p class="mb-4">
-                        2. <strong>Not Affiliated with a Church:</strong> Swakopmund Christian Academy is not associated with any church or denomination. We are an independent educational institution.
+                        2. <strong>We are Not Affiliated with a Church:</strong> Swakopmund Christian Academy is not associated with any church or denomination. We are an independent educational institution.
                     </p>
                     <p class="mb-4">
-                        3. <strong>Not a Government or Public School:</strong> Established in 1987 and officially registered as an independent/private school in 1988, we are not a government or public school. Our long-standing presence and rigorous testing have solidified our status.
+                        3. <strong>We are Not a Government or State School:</strong> Established in 1987 and officially registered as an independent/private school in 1988, we are not a government state school. Our long-standing presence and rigorous testing have solidified our status.
                     </p>
                     <p class="mb-4">
-                        4. <strong>Open to All:</strong> We welcome students from all backgrounds, regardless of their religious beliefs or lack thereof. We do not discriminate based on gender, race, color, ethnic origin, creed, or social and economic status.
+                        4. <strong>We are Open to All:</strong> We welcome students from all backgrounds, regardless of their religious beliefs or lack thereof. We do not discriminate based on gender, race, color, ethnic origin, creed, or social and economic status.
                     </p>
                     <p class="mb-4">
-                        5. <strong>Self-Sustained and Independent:</strong> Swakopmund Christian Academy does not receive any grants or royalties from the Namibian government. We are entirely self-sustained and independent in our operations.
+                        5. <strong>We are Self-Sustained and Independent:</strong> Swakopmund Christian Academy does not receive any grants or royalties from the Namibian government. We are entirely self-sustained and independent in our operations.
                     </p>
                 </ol>
             </div>
