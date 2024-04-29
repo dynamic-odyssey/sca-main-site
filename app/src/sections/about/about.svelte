@@ -16,10 +16,16 @@
         </h6>
         <h1 class="mb-4">Welcome to Swakopmund Christian Academy...</h1>
         <p class="mb-4">
-          Your visit at our school web page is noted with warmth and expectation. Your unwavering search for a high-quality, technologically driven, and modern school that will suit your child's holistic needs has finally come to fruition. We trust that your experience with regards the information shared or gained is sufficient and revolutionary. You are encouraged to let us know of your views under our <u>contact</u> section. Allow us to walk, grow, share and learn in partnership with you on this exciting journey of your child's education. Swakopmund Christian Academy has been a seasoned private school since 1987 with more than 35 years of tested educational expertise. We offer English 1st Language education [ELA].
+          We're delighted that your quest for a top-tier educational institution has led you here. At Swakopmund Christian Academy, we are committed to providing a high-quality, technology-driven education that addresses the holistic needs of each student. Established in 1987, our academy has over 35 years of proven expertise in nurturing young minds and preparing them for the future.
         </p>
         <p class="mb-4">
-          “It is not beyond our power to create a world in which all children have access to a good education. Those who do not believe this have small imaginations.” Nelson Mandela (1918-2013)
+          As you explore our website, we hope you find the information enriching and enlightening. We encourage you to share your thoughts with us through our contact section. Join us as we partner together on this thrilling educational journey with your child.
+        </p>
+        <p class="mb-4">
+          At Swakopmund Christian Academy, we believe in the power of education to transform lives. As Nelson Mandela once said, “It is not beyond our power to create a world in which all children have access to a good education. Those who do not believe this have small imaginations.” Let us expand our imaginations together, fostering a community where every child thrives under the guidance of skilled educators and an Advanced curriculum.
+        </p>
+        <p class="mb-4">
+          Together, let's shape a brighter future.
         </p>
         <div class="row gy-2 gx-4 mb-4">
           <div class="col-sm-6">
