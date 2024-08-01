@@ -42,6 +42,7 @@
 <Fees />
 <Enrollment />
 <Calendar2024 />
+<Calendar />
 <Technology />
 <Uniform />
 <Stationery />
