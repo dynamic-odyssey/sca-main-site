@@ -13,7 +13,7 @@
         <div class="position-relative h-100">
           <img
             class="img-fluid position-absolute w-100 h-100"
-            src="img/Calendar.jpg"
+            src="img/Calendar2024.png"
             alt=""
             style="object-fit: contain;"
           />
@@ -21,11 +21,11 @@
       </div>
       <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
         <h6 class="section-title bg-white text-start text-primary pe-3">
-          2023 School Calendar
+          SCA School Calendar
         </h6>
-        <h1 class="mb-4">Get Ready for an Exciting Academic Journey!</h1>
+        <h1 class="mb-4">Stay updated with all our important dates on the calendar!</h1>
         <p class="mb-4">
-          Plan ahead with our 2023 School Calendar. It outlines the school's opening and closing dates, as well as the schedule for public holidays. Stay in the know and be prepared for the year ahead.
+          Plan ahead with our 2024 School Calendar. It outlines the school's opening and closing dates, as well as the schedule for public holidays. Stay in the know and be prepared for the year ahead.
         </p>
         <p class="mb-4">
           For more details or questions, contact our administrative team. Thank you for choosing us for your education.
