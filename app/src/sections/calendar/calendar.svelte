@@ -13,7 +13,7 @@
         <div class="position-relative h-100">
           <img
             class="img-fluid position-absolute w-100 h-100"
-            src="img/Calendar2024.png"
+            src="img/SCA2024Calendar.png"
             alt=""
             style="object-fit: contain;"
           />
